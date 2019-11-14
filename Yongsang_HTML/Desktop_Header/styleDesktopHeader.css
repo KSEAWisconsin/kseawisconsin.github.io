@@ -1,0 +1,17 @@
+.title {
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr 2fr 2fr;
+}
+
+.KSEA_WI_logo {
+    width: 180px;
+    height: 180px;
+    margin-left: 92px;
+}
+
+.element {
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    color: #000000;
+}

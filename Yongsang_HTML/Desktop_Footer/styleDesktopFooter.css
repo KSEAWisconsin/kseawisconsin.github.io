@@ -21,6 +21,7 @@
     background-size: 220px 40px;
     background-color: #B2E4F6;
     border-radius: 18px;
+    block-size: auto;
 }
 
 .bottom-paragraph {
