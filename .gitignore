@@ -1,3 +1,4 @@
+# Jekyll Auto-genearated / Compiled File and Directory
 *.gem
 .bundle
 .sass-cache/
@@ -5,3 +6,6 @@
 .jekyll-metadata
 _site/
 Gemfile.lock
+
+# WebStorm Files
+.idea/
