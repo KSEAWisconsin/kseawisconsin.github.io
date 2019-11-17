@@ -6,7 +6,10 @@
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
+#myLinks {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
     display: none;
     background-color: #B2E4F6;
 }
