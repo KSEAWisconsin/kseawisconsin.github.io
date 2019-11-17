@@ -9,19 +9,23 @@
 <body>
 
 <!-- Top Navigation Menu -->
-<div class="topnav">
-    <img class="active" src="../KSEA_WI_logo.svg">
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <p class="menu">menu =</p>
-    </a>
-</div>
-<!-- Navigation links (hidden by default) -->
-<div id="myLinks">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">News & Events</a>
-    <a href="#">Gallery</a>
+<div class="mobile">
+    <div class = "topMobile">
+        <img class="active" src="../KSEA_WI_logo.svg">
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <div>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                <p class="menu">menu</p>
+            </a>
+        </div>
+    </div>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">News & Events</a>
+        <a href="#">Gallery</a>
+    </div>
 </div>
 
 </body>
