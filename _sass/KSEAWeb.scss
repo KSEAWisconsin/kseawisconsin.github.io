@@ -47,6 +47,10 @@ header {
           &.current {
             text-decoration: underline;
           }
+
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
     }
