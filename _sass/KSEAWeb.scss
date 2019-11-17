@@ -7,15 +7,99 @@ body {
 
   .container {
     width: 1182px;
-    max-width: 100%;
+    max-width: 99%;
     margin: 5px auto;
+    @media screen and (max-width: 1191px) {
+      margin: 5px;
+    }
   }
 }
 
 header {
   // For mobile site
+  margin-bottom: 40px;
+  @media screen and (min-width: 550px) {
+    margin-bottom: 70px;
+  }
+
   .desktop {
     display: none;
+  }
+
+  .topMobile {
+    display: grid;
+    grid-template-columns: 81px auto 84px;
+    padding-bottom: 5px;
+    @media screen and (min-width: 550px) {
+      grid-template-columns: 140px auto 150px;
+    }
+
+    .KSEA_WI_logo {
+      width: 81px;
+      height: 81px;
+      @media screen and (min-width: 550px) {
+        width: 140px;
+        height: 140px;
+      }
+    }
+
+    .icon {
+      display: block;
+      width: 84px;
+      text-align: center;
+      padding-top: 27.5px;
+      text-decoration: none;
+      @media screen and (min-width: 550px) {
+        width: 140px;
+        padding-top: 48px;
+      }
+    }
+
+    #menuButton {
+      background-color: #B2E4F6;
+      color: black;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 4px 2px;
+      border: solid #01C1F1 1px;
+      border-radius: 7.5px;
+      margin: 0;
+      @media screen and (min-width: 550px) {
+        font-size: 24px;
+      }
+
+      &:hover {
+        background-color: #01C1F1;
+      }
+    }
+  }
+  
+  #navLinks {
+    overflow: hidden;
+    background-color: white;
+    display: none; // hide by default
+    background-color: #B2E4F6;
+
+    a {
+      color: black;
+      padding: 7.5px 10px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+      display: block;
+      @media screen and (min-width: 550px) {
+        font-size: 24px;
+        padding: 10px 15px;
+      }
+
+      &:hover {
+        background-color: #01C1F1;
+      }
+
+      &.current {
+        background-color: #01C1F1;
+      }
+    }
   }
 
   // For desktop site
