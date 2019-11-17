@@ -1,9 +1,13 @@
 <!-- Desktop Header -->
 <img class = "KSEA_WI_logo" src = "{{ site.baseurl }}/assets/KSEA_WI_logo.svg">
 <div class = "navigator">
-  <a href="{{ site.baseurl }}">HOME</a>
-  <a href="{{ site.baseurl }}/about">ABOUT</a>
-  <a href="{{ site.baseurl }}/events">NEWS & EVENTS</a>
+  {% for item in site.data.sitemap %}
+    {% if page.url == item.url %}
+      <a href="{{ site.baseurl }}{{ item.url }}" class = "active">{{ item.title }}</a>
+    {% else %}
+      <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+    {% endif %}
+  {% endfor %}
   <a href="https://photos.app.goo.gl/dcorGVh13JCj28rW9">GALLERY</a>
 </div>
 
