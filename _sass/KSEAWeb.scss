@@ -3,4 +3,34 @@
 
 body {
   font-family: "NanumSquareRound";
+  color: #000000; // Default Text Color: Black
+
+  .container {
+    width: 1182px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+header {
+  display: grid;
+  grid-template-columns: 180px auto;
+
+  .KSEA_WI_logo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .navigator {
+    text-align: right;
+    margin-top: 75px;
+
+    a {
+      font-weight: 700;
+      font-size: 30px;
+      margin-left: 30px;
+      color: #000000;
+      text-decoration: none;
+    }
+  }
 }
