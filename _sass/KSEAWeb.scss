@@ -8,7 +8,7 @@ body {
   .container {
     width: 1182px;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 5px auto;
   }
 }
 
@@ -20,6 +20,8 @@ header {
 
   // For desktop site
   @media screen and (min-width: 900px) {
+    margin-bottom: 70px;
+    
     .mobile {
       display: none;
     }
