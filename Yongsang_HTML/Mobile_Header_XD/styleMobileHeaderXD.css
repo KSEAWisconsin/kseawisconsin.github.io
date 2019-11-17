@@ -1,7 +1,7 @@
 /* Style the navigation menu */
 .topMobile {
     display: grid;
-    grid-template-columns: 81px auto;
+    grid-template-columns: 81px auto 84px;
     background-color: white;
 }
 
@@ -24,14 +24,15 @@
 }
 
 /* Style the hamburger menu */
-/*
-.mobile a.icon {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
+.icon-wrapper {
+    align-content: right;
 }
-*/
+
+.icon {
+    display: block;
+    width: 84px;
+    text-align: center;
+}
 
 /* Add a grey background color on mouse-over */
 #myLinks a:hover {
