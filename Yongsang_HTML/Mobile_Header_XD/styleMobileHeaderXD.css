@@ -23,15 +23,11 @@
     display: block;
 }
 
-/* Style the hamburger menu */
-.icon-wrapper {
-    align-content: right;
-}
-
 .icon {
     display: block;
     width: 84px;
     text-align: center;
+    padding-top: 27.5px;
 }
 
 /* Add a grey background color on mouse-over */
@@ -48,11 +44,13 @@
     height: 81px;
 }
 
-.menu {
-    background-color: #01C1F1;
+#menu {
+    background-color: #B2E4F6;
     color: black;
     font-weight: bold;
     font-size: 16px;
     padding: 4px 2px;
-    border-radius: 3px;
+    border: solid #01C1F1 1px;
+    border-radius: 5px;
+    margin: 0;
 }
