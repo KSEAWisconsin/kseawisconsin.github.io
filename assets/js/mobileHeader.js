@@ -4,7 +4,7 @@ function toggleMenu() {
     var menuButton = document.getElementById("menuButton");
     if (navLinks.style.display === "block") {
         navLinks.style.display = "none";
-        menuButton.style.backgroundColor = "#B2E4F6";
+        menuButton.style.backgroundColor = "";
     } else {
         navLinks.style.display = "block";
         menuButton.style.backgroundColor = "#01C1F1";
