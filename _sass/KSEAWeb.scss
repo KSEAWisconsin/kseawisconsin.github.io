@@ -25,10 +25,17 @@ header {
     display: grid;
     grid-template-columns: 81px auto 84px;
     padding-bottom: 5px;
+    @media screen and (min-width: 550px) {
+      grid-template-columns: 140px auto 150px;
+    }
 
     .KSEA_WI_logo {
       width: 81px;
       height: 81px;
+      @media screen and (min-width: 550px) {
+        width: 140px;
+        height: 140px;
+      }
     }
 
     .icon {
@@ -37,6 +44,10 @@ header {
       text-align: center;
       padding-top: 27.5px;
       text-decoration: none;
+      @media screen and (min-width: 550px) {
+        width: 140px;
+        padding-top: 48px;
+      }
     }
 
     #menuButton {
@@ -48,6 +59,9 @@ header {
       border: solid #01C1F1 1px;
       border-radius: 7.5px;
       margin: 0;
+      @media screen and (min-width: 550px) {
+        font-size: 24px;
+      }
 
       &:hover {
         background-color: #01C1F1;
@@ -68,6 +82,10 @@ header {
       font-size: 16px;
       font-weight: 700;
       display: block;
+      @media screen and (min-width: 550px) {
+        font-size: 24px;
+        padding: 10px 15px;
+      }
 
       &:hover {
         background-color: #01C1F1;
