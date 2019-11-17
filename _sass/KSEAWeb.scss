@@ -18,6 +18,55 @@ header {
     display: none;
   }
 
+  .topMobile {
+    display: grid;
+    grid-template-columns: 81px auto 84px;
+
+    .KSEA_WI_logo {
+      width: 81px;
+      height: 81px;
+    }
+
+    .icon {
+      display: block;
+      width: 84px;
+      text-align: center;
+      padding-top: 27.5px;
+    }
+
+    #menuButton {
+      background-color: #B2E4F6;
+      color: black;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 4px 2px;
+      border: solid #01C1F1 1px;
+      border-radius: 5px;
+      margin: 0;
+    }
+  }
+  
+  #navLinks {
+    overflow: hidden;
+    background-color: white;
+    display: none; // hide by default
+    background-color: #B2E4F6;
+
+    a {
+      color: black;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      display: block;
+
+      &:hover &.current{
+        background-color: #01C1F1;
+        color: black;
+      }
+    }
+  }
+
   // For desktop site
   @media screen and (min-width: 900px) {
     margin-bottom: 70px;
