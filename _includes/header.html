@@ -4,7 +4,7 @@
   <div class = "navigator">
     {% for item in site.data.sitemap %}
       {% if page.url == item.url %}
-        <a href="{{ site.baseurl }}{{ item.url }}" class = "active">{{ item.title }}</a>
+        <a class = "current">{{ item.title }}</a>
       {% else %}
         <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
       {% endif %}
@@ -14,6 +14,5 @@
 </div>
 
 <!-- Additional Feature
-1. Highlight current
-2. When hovering, indicate the hovering element
+1. When hovering, indicate the hovering element
 -->
