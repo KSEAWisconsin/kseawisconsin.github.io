@@ -1,1 +1,30 @@
-{{ content }}
+<!DOCTYPE html>
+<html>
+  <head>
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+
+    <!-- General Settings -->
+    <meta charset = "utf-8">
+    <title>{{ page.title }}</title>
+
+    <!-- Appearance -->
+    <link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/style.css">
+  </head>
+  <body>
+    <header>
+      {% include header.html %}
+    </header>
+    {{ content }}
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </body>
+</html>
