@@ -310,13 +310,19 @@ footer {
     text-align: center;
 
     #english {
-      font-size:7vw;
+      font-size: 7vw;
+      @media screen and (min-width: 1142px){
+        font-size: 80px;
+      }
       margin-bottom: 20px;
       margin-top: 0px;
     }
 
     #korean {
       font-size: 5.5vw;
+      @media screen and (min-width: 1142px){
+        font-size: 60px;
+      }
       margin-bottom: 70px;
       margin-top: 0px;
     }
@@ -324,8 +330,26 @@ footer {
     #description {
       font-size: 2.5vw;
       line-height: 3vw;
+      @media screen and (min-width: 1142px){
+        font-size: 28px;
+        line-height: 35px;
+      }
       margin-bottom: 70px;
       margin-top: 0px;
+    }
+  }
+
+  .upcomming_events {
+    #title {
+      text-align: left;
+      font-size: 40px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+
+    #more_event {
+      text-align: center;
+      font-size: 30px;
     }
   }
 }
