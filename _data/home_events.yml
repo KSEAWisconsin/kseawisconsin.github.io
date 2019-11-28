@@ -1,0 +1,9 @@
+# For main page (HOME) upcomming event list
+# Maximum 6 Events allowed
+
+# Template
+## - event_name: # upto 30 character
+##   detail_url: # where detailed description located
+##   date: # Mmm. DD. YYYY
+##   location: # upto 30 char
+##   additional_info: # Maximum of 3 line, line break: <br>, 40 character per line
