@@ -41,32 +41,3 @@
     <a href="https://photos.app.goo.gl/dcorGVh13JCj28rW9" target="_blank">GALLERY</a>
   </div>
 </div>
-
-<!-- Mobile Header -->
-<div class = "mobile">
-  <script rel = "script" src = "{{ site.baseurl }}/assets/js/mobileHeader.js"></script>
-  <!-- Logo + Menu Icon -->
-  <div class = "topMobile">
-    <img class = "KSEA_WI_logo" src = "{{ site.baseurl }}/assets/KSEA_WI_logo.svg">
-    <div>
-      <!-- Empty Wrapper for alignment -->
-    </div>
-    <!-- Hamburger Menu Icon -->
-    <div class = "icon-wrapper">
-      <a href = "javascript:void(0);" class = "icon" onclick = "toggleMenu()">
-        <p id = "menuButton">MENU</p>
-      </a>
-    </div>
-  </div>
-  <!-- Navigation Links (hidden by default -->
-  <div id = "navLinks">
-    {% for item in site.data.sitemap %}
-      {% if page.url == item.url %}
-        <a class = "current">{{ item.title }}</a>
-      {% else %}
-        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-      {% endif %}
-    {% endfor %}
-    <a href="https://photos.app.goo.gl/dcorGVh13JCj28rW9">GALLERY</a>
-  </div>
-</div>
