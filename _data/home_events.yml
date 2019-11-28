@@ -7,3 +7,9 @@
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 30 char
 ##   additional_info: # Maximum of 3 line, line break: <br>, 40 character per line
+
+- event_name: Monthly Bowling Night
+  detail_url: 
+  date: Oct. 20. 2019
+  location: Middleton Sports Center
+  additional_info: "Admission Fee: $1 / Game, $1 for Shoes"
