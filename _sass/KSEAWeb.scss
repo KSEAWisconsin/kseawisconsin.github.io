@@ -1,8 +1,10 @@
-@import "normalize";
+@import "normalize"; // Reset browser's default CSS Setting
+// WebFonts and Alternatives
 @import "NanumSquareR";
+@import "Arial";
 
 body {
-  font-family: "NanumSquareRound";
+  font-family: "NanumSquareRound", "Arial";
   color: #000000; // Default Text Color: Black
 
   .container {

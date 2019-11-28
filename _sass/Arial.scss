@@ -1,0 +1,24 @@
+/* Arial Font appearance before WebFont (NanumSquareRound) Loaded
+ * Use Fine-tuned Arial before NanumSquareRound Rendered
+ * Setting has been retrieved from Font Style Matcher(https://sangziii.github.io/fontStyleMatcher/)
+ * 
+/* Support Browser List
+ * - Internet Explorer 9.0+
+ * - Edge: 12.0+
+ * - FireFox 3.5+
+ * - Chrome 30.0+
+ * - Safari 6.1+
+ * - Opera 17.0+
+ */
+
+@font-face {
+  font-family: "Arial";
+  font-size: 16px;
+  line-height: 1.6;
+  word-spacing: -1px;
+  letter-spacing: 0.7px;
+  height: auto;
+  visibility: visible;
+  font-weight: 500;
+  src: local("Arial");
+}
