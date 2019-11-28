@@ -160,12 +160,21 @@ footer {
       font-size: 18px;
       font-weight: 700;
       margin-bottom: 5px;
+      @media screen and (min-width: 550px) {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+      }
     }
   
     .email {
       font-size: 12px;
       font-weight: 700;
       margin-bottom: 20px;
+      @media screen and (min-width: 550px) {
+        font-size: 20px;
+        margin-top: 0px;
+      }
     }
   
     .footer-grid-container {
@@ -176,6 +185,10 @@ footer {
       font-size: 12px;
       font-weight: 700;
       margin-bottom: 20px;
+      @media screen and (min-width: 550px) {
+        font-size: 20px;
+        height: 38px;
+      }
   
       .round-button {
         text-align: center;
@@ -188,6 +201,12 @@ footer {
         border-radius: 13px;
         color: #000000;
         text-decoration: none;
+        @media screen and (min-width: 550px) {
+          line-height: 38px;
+          width: 230px;
+          height: 38px;
+          border-radius: 18px;
+        }
       }
     }
 
@@ -199,10 +218,10 @@ footer {
       padding-top: 5px;
       font-weight: 700;
       text-align: center;
-      font-size: 10px;
-      @media screen and (min-width: 650px) {
+      @media screen and (min-width: 550px) {
         font-size: 13px;
       }
+      font-size: 10px;
     }
   }
 
