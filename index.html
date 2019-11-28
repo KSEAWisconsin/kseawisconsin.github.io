@@ -4,32 +4,30 @@ layout: default
 ---
 
 <div class = "home">
-  <div class = "desktop">
-    <div class = "greeting">
-      <p id = "english">KSEA Wisconsin Chapter</p>
-      <p id = "korean">위스콘신 ​재미한인과학기술자협회</p>
-      <p id = "description">Korean-American Scientists and Engineers Association Wisconsin Chapter wants to spread our knowledge and compassion.<br>
-        <br>
-        We are open to everyone who is interested in science and engineering.
-      </p>
+  <div class = "greeting">
+    <p id = "english">KSEA Wisconsin Chapter</p>
+    <p id = "korean">위스콘신 ​재미한인과학기술자협회</p>
+    <p id = "description">Korean-American Scientists and Engineers Association Wisconsin Chapter wants to spread our knowledge and compassion.<br>
+      <br>
+      We are open to everyone who is interested in science and engineering.
+    </p>
+  </div>
+  <div class = "upcomming_events">
+    <p id = "title">Upcoming Events</p>
+    <div class = "grid_wrapper">
+      {% for item in site.data.home_events %}
+        <a href = "{{ site.baseurl }}{{ item.detail_url }}">
+          <div class = "event">
+            <p id = "event_name">{{ item.event_name }}</p>
+            <p id = "date">Date: {{ item.date }}</p>
+            <p id = "location">Location: {{ item.location }}</p>
+            <p id = "additional_info">{{ item.additional_info }}</p>
+          </div>
+        </a>
+      {% endfor %}
     </div>
-    <div class = "upcomming_events">
-      <p id = "title">Upcoming Events</p>
-      <div class = "grid_wrapper">
-        {% for item in site.data.home_events %}
-          <a href = "{{ site.baseurl }}{{ item.detail_url }}">
-            <div class = "event">
-              <p id = "event_name">{{ item.event_name }}</p>
-              <p id = "date">Date: {{ item.date }}</p>
-              <p id = "location">Location: {{ item.location }}</p>
-              <p id = "additional_info">{{ item.additional_info }}</p>
-            </div>
-          </a>
-        {% endfor %}
-      </div>
-      <a href = "{{ site.baseurl }}/events">
-        <p id = "more_event">VIEW MORE EVENTS AND NEWS</p>
-      </a>
-    </div>
+    <a href = "{{ site.baseurl }}/events">
+      <p id = "more_event">VIEW MORE EVENTS AND NEWS</p>
+    </a>
   </div>
 </div>
