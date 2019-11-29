@@ -8,31 +8,31 @@
 ##   website_url: # url of personal website
 
 - person_name: JONGHYUN LEE
-  image_url: JONGHYUN_LEE.jpg
+  image_url: /JONGHYUN_LEE.jpg
   standing: President
   webstie_url: 
   
 - person_name: KWON LEE
-  image_url: KWON_LEE.jpg
+  image_url: /KWON_LEE.jpg
   standing: Vice President
   webstie_url: 
   
 - person_name: SUNGJUNE KIM
-  image_url: SUNGJUNE_KIM.jpg
+  image_url: /SUNGJUNE_KIM.jpg
   standing: Secretary
   webstie_url: 
   
 - person_name: SEUNGJE SEONG
-  image_url: SEUNGJE_SEONG.jpg
+  image_url: /SEUNGJE_SEONG.jpg
   standing: Public Relations
   webstie_url: 
   
 - person_name: TAEKYUNG KIM
-  image_url: TAEKYUNG_KIM.jpg
+  image_url: /TAEKYUNG_KIM.jpg
   standing: Event Coordinator
   webstie_url: 
   
 - person_name: HYEONJI KIM
-  image_url: HYEONJI_KIM.jpg
+  image_url: /HYEONJI_KIM.jpg
   standing: Finance Director
   webstie_url: 
