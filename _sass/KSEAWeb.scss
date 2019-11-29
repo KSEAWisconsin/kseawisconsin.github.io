@@ -337,8 +337,6 @@ footer {
       margin-bottom: 70px;
       margin-top: 0px;
     }
-
-    .grid-wrapper
   }
 
   .upcomming_events {
@@ -347,6 +345,30 @@ footer {
       font-size: 40px;
       margin-bottom: 20px;
       margin-top: 0px;
+    }
+
+    .grid_wrapper {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      column-gap: 18px;
+      row-gap: 22px;
+      
+      .event-wrapper {
+        height: 300px;
+        background-color: #B2E4F6;
+
+        .event_name {
+          margin-top: 25px;
+          margin-bottom: 20px;
+          text-align: center;
+          font-size: 30px;
+        }
+
+        .detail {
+          margin-left: 20px;
+          font-size: 25px;
+        }
+      }
     }
 
     #more_event {

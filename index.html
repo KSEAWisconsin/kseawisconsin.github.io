@@ -16,39 +16,41 @@ layout: default
     <p id = "title">Upcoming Events</p>
     <div class = "grid_wrapper">
       {% for item in site.data.home_events limit: 6 %}
-        <a href = "{{ site.baseurl }}{{ item.detail_url }}">
-          <div class = "event">
-            {% if item.event_name.size > 30 %}
-              <p class = "event_name">{{ item.event_name | truncatewords: 27 }}...</p>
-            {% else %}
-              <p class = "event_name">{{ item.event_name }}</p>
-            {% endif %}
+        <div class = "event-wrapper">
+          <a href = "{{ site.baseurl }}{{ item.detail_url }}">
+            <div>
+              {% if item.event_name.size > 30 %}
+                <p class = "event_name">{{ item.event_name | truncatewords: 27 }}...</p>
+              {% else %}
+                <p class = "event_name">{{ item.event_name }}</p>
+              {% endif %}
 
-            <p class = "date">Date: {{ item.date }}</p>
-            
-            {% if item.location.size > 30 %}
-              <p class = "location">Location: {{ item.location | truncatewords: 27 }}...</p>
-            {% else %}
-              <p class = "location">Location: {{ item.location }}</p>
-            {% endif %}
-            
-            {% if item.additional_info1.size > 40 %}
-              <p class = "additional_info1">{{ item.additional_info1 | truncatewords: 37 }}...</p>
-            {% else %}
-              <p class = "additional_info1">{{ item.additional_info1 }}</p>
-            {% endif %}
-            {% if item.additional_info2.size > 40 %}
-              <p class = "additional_info2">{{ item.additional_info2 | truncatewords: 37 }}...</p>
-            {% else %}
-              <p class = "additional_info2">{{ item.additional_info2 }}</p>
-            {% endif %}
-            {% if item.additional_info3.size > 40 %}
-              <p class = "additional_info3">{{ item.additional_info3 | truncatewords: 37 }}...</p>
-            {% else %}
-              <p class = "additional_info3">{{ item.additional_info3 }}</p>
-            {% endif %}
-          </div>
-        </a>
+              <p class = "detail">Date: {{ item.date }}</p>
+              
+              {% if item.location.size > 30 %}
+                <p class = "detail">Location: {{ item.location | truncatewords: 27 }}...</p>
+              {% else %}
+                <p class = "detail">Location: {{ item.location }}</p>
+              {% endif %}
+              
+              {% if item.additional_info1.size > 40 %}
+                <p class = "detail">{{ item.additional_info1 | truncatewords: 37 }}...</p>
+              {% else %}
+                <p class = "detail">{{ item.additional_info1 }}</p>
+              {% endif %}
+              {% if item.additional_info2.size > 40 %}
+                <p class = "detail">{{ item.additional_info2 | truncatewords: 37 }}...</p>
+              {% else %}
+                <p class = "detail">{{ item.additional_info2 }}</p>
+              {% endif %}
+              {% if item.additional_info3.size > 40 %}
+                <p class = "detail">{{ item.additional_info3 | truncatewords: 37 }}...</p>
+              {% else %}
+                <p class = "detail">{{ item.additional_info3 }}</p>
+              {% endif %}
+            </div>
+          </a>
+        </div>
       {% endfor %}
     </div>
     <a href = "{{ site.baseurl }}/events">
