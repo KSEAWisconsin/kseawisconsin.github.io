@@ -15,7 +15,7 @@ layout: default
   <div class = "upcomming_events">
     <p id = "title">Upcoming Events</p>
     <div class = "grid_wrapper">
-      {% for item in site.data.home_events %}
+      {% for item in site.data.home_events limit: 6 %}
         <a href = "{{ site.baseurl }}{{ item.detail_url }}">
           <div class = "event">
             <p id = "event_name">{{ item.event_name }}</p>
