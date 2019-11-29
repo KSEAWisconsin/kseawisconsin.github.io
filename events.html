@@ -3,11 +3,18 @@ title: KSEA-Wisconsin | HOME
 layout: default
 ---
 
-<div class = "events">
+<div class = "news_and_events">
+  <div class = "greeting">
+    <p id = "english">NEWS & EVENTS</p>
+    <p id = "description">To get faster update of our events, please follow our Facebook Page<br>
+      <br>
+      We are open to everyone who is interested in science and engineering.
+    </p>
+  </div>
     <div class = "upcomming_events">
         <p id = "title">Upcoming Events</p>
         <div class = "grid_wrapper">
-          {% for item in site.data.events_events limit: 10 %}
+          {% for item in site.data.events_events%}
             <div class = "event-wrapper">
               <a href = "{{ site.baseurl }}{{ item.detail_url }}">
                 <div>
@@ -24,29 +31,10 @@ layout: default
                   {% else %}
                     <p class = "detail">Location: {{ item.location }}</p>
                   {% endif %}
-                  
-                  {% if item.additional_info1.size > 40 %}
-                    <p class = "detail">{{ item.additional_info1 | truncatewords: 37 }}...</p>
-                  {% else %}
-                    <p class = "detail">{{ item.additional_info1 }}</p>
-                  {% endif %}
-                  {% if item.additional_info2.size > 40 %}
-                    <p class = "detail">{{ item.additional_info2 | truncatewords: 37 }}...</p>
-                  {% else %}
-                    <p class = "detail">{{ item.additional_info2 }}</p>
-                  {% endif %}
-                  {% if item.additional_info3.size > 40 %}
-                    <p class = "detail">{{ item.additional_info3 | truncatewords: 37 }}...</p>
-                  {% else %}
-                    <p class = "detail">{{ item.additional_info3 }}</p>
-                  {% endif %}
                 </div>
               </a>
             </div>
           {% endfor %}
         </div>
-        <a href = "{{ site.baseurl }}/events">
-          <p id = "more_event">VIEW MORE EVENTS AND NEWS</p>
-        </a>
       </div>
 </div>

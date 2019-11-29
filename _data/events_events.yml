@@ -6,6 +6,53 @@
 ##   detail_url: # where detailed description located
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 30 char
-##   additional_info1: # 1st line of additional information. 40 character per line
-##   additional_info2: # 2st line of additional information.
-##   additional_info3: # 2st line of additional information.
+
+- event_name: Wisconsin Science Festival
+  detail_url: 
+  date: Oct. 19. 2019 (Sat)
+  location: Wisconsin Institute for Discovery
+
+- event_name: KSEA Early Halloween Event
+  detail_url: 
+  date: Oct. 12. 2019 (Sat)
+  location: Schuster's Farm
+
+- event_name: 2019 Fall Membership Drive
+  detail_url: 
+  date: Sep. 7. 2019 (Sat)
+  location: Memorial Union Tripp Commons
+
+- event_name: KASA KoreU'&#58;' CultureFest 2019
+  detail_url: 
+  date: Apr. 19. 2019 (Fri)
+  location: Gordon's Symphonoy Room
+
+- event_name: 2019 National Math & Sci Competition
+  detail_url: 
+  date: Apr. 13. 2019 (Sat) 12'&#58;'45 PM - 3'&#58;'30 PM
+  location: Union South
+
+- event_name: Monthly Bowling Nightlllllllllllllllll
+  detail_url: 
+  date: Oct. 20. 2019
+  location: Middleton Sports Center
+
+- event_name: Monthly Bowling Nightlllllllllllllllll
+  detail_url: 
+  date: Oct. 20. 2019
+  location: Middleton Sports Center
+
+- event_name: Monthly Bowling Nightlllllllllllllllll
+  detail_url: 
+  date: Oct. 20. 2019
+  location: Middleton Sports Center
+
+- event_name: Monthly Bowling Nightlllllllllllllllll
+  detail_url: 
+  date: Oct. 20. 2019
+  location: Middleton Sports Center
+
+- event_name: Monthly Bowling Nightlllllllllllllllll
+  detail_url: 
+  date: Oct. 20. 2019
+  location: Middleton Sports Center
