@@ -718,6 +718,9 @@ footer {
   @media screen and (min-width: 550px) {
     #main {
       font-size: 5.5vw;
+      @media screen and (min-width: 800px) {
+        font-size: 60px;
+      }
       margin-bottom: 50px;
       margin-top: 0px;
     }
@@ -729,6 +732,10 @@ footer {
     #description {
       font-size: 2.5vw;
       line-height: 3vw;
+      @media screen and (min-width: 800px) {
+        font-size: 28px;
+        line-height: 35px;
+      }
       margin-bottom: 100px;
       margin-top: 0px;  
     }
@@ -773,11 +780,17 @@ footer {
     @media screen and (min-width: 550px) {
       #leaders {
         font-size: 5.5vw;
+        @media screen and (min-width: 800px) {
+          font-size: 60px;
+        }
         margin-bottom: 30px;
       }
   
       .sub {
         font-size: 4vw;
+        @media screen and (min-width: 800px) {
+          font-size: 40px;
+        }
         margin-bottom: 20px;
       }
     }
@@ -924,7 +937,7 @@ footer {
   #main {
     text-align: center;
     font-size: 23px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-top: 0px;
   }
 
@@ -932,7 +945,7 @@ footer {
     text-align: left;
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     margin-top: 0px;
   }
 
@@ -953,7 +966,7 @@ footer {
   }
 
   // for desktop website
-  @media screen and (min-width: 1020px) {
+  @media screen and (min-width: 800px) {
     #main {
       font-size: 60px;
       margin-bottom: 40px;
@@ -981,15 +994,15 @@ footer {
     @media screen and (min-width: 550px) {  
       .sub {
         font-size: 4vw;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
     }
 
     //for desktop website
-    @media screen and (min-width: 1020px) {
+    @media screen and (min-width: 800px) {
       .sub {
         font-size: 40px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
     }
 
