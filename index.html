@@ -19,33 +19,33 @@ layout: default
         <a href = "{{ site.baseurl }}{{ item.detail_url }}">
           <div class = "event">
             {% if item.event_name.size > 30 %}
-              <p id = "event_name">{{ item.event_name | truncatewords: 27 }}...</p>
+              <p class = "event_name">{{ item.event_name | truncatewords: 27 }}...</p>
             {% else %}
-              <p id = "event_name">{{ item.event_name }}</p>
+              <p class = "event_name">{{ item.event_name }}</p>
             {% endif %}
 
-            <p id = "date">Date: {{ item.date }}</p>
+            <p class = "date">Date: {{ item.date }}</p>
             
             {% if item.location.size > 30 %}
-              <p id = "location">Location: {{ item.location | truncatewords: 27 }}...</p>
+              <p class = "location">Location: {{ item.location | truncatewords: 27 }}...</p>
             {% else %}
-              <p id = "location">Location: {{ item.location }}</p>
+              <p class = "location">Location: {{ item.location }}</p>
             {% endif %}
             
             {% if item.additional_info1.size > 40 %}
-              <p id = "additional_info1">{{ item.additional_info1 | truncatewords: 37 }}...</p>
+              <p class = "additional_info1">{{ item.additional_info1 | truncatewords: 37 }}...</p>
             {% else %}
-              <p id = "additional_info1">{{ item.additional_info1 }}</p>
+              <p class = "additional_info1">{{ item.additional_info1 }}</p>
             {% endif %}
             {% if item.additional_info2.size > 40 %}
-              <p id = "additional_info2">{{ item.additional_info2 | truncatewords: 37 }}...</p>
+              <p class = "additional_info2">{{ item.additional_info2 | truncatewords: 37 }}...</p>
             {% else %}
-              <p id = "additional_info2">{{ item.additional_info2 }}</p>
+              <p class = "additional_info2">{{ item.additional_info2 }}</p>
             {% endif %}
             {% if item.additional_info3.size > 40 %}
-              <p id = "additional_info3">{{ item.additional_info3 | truncatewords: 37 }}...</p>
+              <p class = "additional_info3">{{ item.additional_info3 | truncatewords: 37 }}...</p>
             {% else %}
-              <p id = "additional_info3">{{ item.additional_info3 }}</p>
+              <p class = "additional_info3">{{ item.additional_info3 }}</p>
             {% endif %}
           </div>
         </a>
