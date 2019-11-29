@@ -475,15 +475,24 @@ footer {
     text-decoration: none;
   }
 
-  .aboutus {
-    text-align: center;
 
-    #english {
+  .aboutus {
+
+    #main {
+      text-align: center;
       @media screen and (min-width: 1142px){
         font-size: 60px;
       }
-      margin-bottom: 24px;
+      margin-bottom: 10px;
       margin-top: 61px;
+    }
+
+    #sub {
+      text-align: left;
+      @media screen and (min-width: 1142px){
+        font-size: 40px;
+      }
+      margin-top: 11px;
     }
 
     #description {
