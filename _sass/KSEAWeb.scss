@@ -527,6 +527,21 @@ footer {
       margin-top: 0px;
     }
 
+    // for tablet website
+    @media screen and (min-width: 550px) {
+      #title {
+        font-size: 5.5vw;
+        margin-bottom: 30px;
+      }
+
+      #description {
+        font-size: 2.5vw;
+        line-height: 3vw;
+        margin-bottom: 40px;
+        margin-top: 0px;
+      }
+    }
+
     // for desktop website
     @media screen and (min-width: 800px) {
       #title {
