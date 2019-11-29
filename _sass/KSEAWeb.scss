@@ -763,6 +763,7 @@ footer {
       margin-top: 0px;
       margin-bottom: 10px;
     }
+    
     //for tablet website
     @media screen and (min-width: 550px) {
       #leaders {
@@ -775,6 +776,7 @@ footer {
         margin-bottom: 20px;
       }
     }
+
     //for desktop website
     @media screen and (min-width: 1020px) {
       #leaders {
@@ -830,6 +832,7 @@ footer {
         }
       }
     }
+
     //for tablet website
     @media screen and (min-width: 550px) {
       .grid_wrapper {
@@ -855,16 +858,17 @@ footer {
   
           .standing {
             margin-left: 230px;
-            font-size: 24px;
+            font-size: 23px;
           }
           
           .personal_url {
             margin-left: 230px;
-            font-size: 18px;
+            font-size: 16px;
           }
         }
       }
     }
+
     //for desktop website
     @media screen and (min-width: 1020px) {
       .grid_wrapper {
@@ -890,7 +894,7 @@ footer {
   
           .standing {
             margin-left: 230px;
-            font-size: 25px;
+            font-size: 23px;
           }
           
           .personal_url {
