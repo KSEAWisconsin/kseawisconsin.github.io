@@ -297,3 +297,76 @@ footer {
     }
   }
 }
+
+.news_and_events {
+  font-weight: 700;
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .greeting {
+    text-align: center;
+
+    #english {
+      font-size: 7vw;
+      @media screen and (min-width: 1142px){
+        font-size: 80px;
+      }
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+
+    #description {
+      font-size: 2.5vw;
+      line-height: 3vw;
+      @media screen and (min-width: 1142px){
+        font-size: 28px;
+        line-height: 35px;
+      }
+      margin-bottom: 70px;
+      margin-top: 0px;
+    }
+  }
+
+  .upcomming_events {
+    #title {
+      text-align: left;
+      font-size: 40px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+
+    .grid_wrapper {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      column-gap: 18px;
+      row-gap: 22px;
+      
+      .event-wrapper {
+        height: 244px;
+        background-color: #B2E4F6;
+
+        .event_name {
+          margin-top: 25px;
+          margin-bottom: 20px;
+          text-align: center;
+          font-size: 30px;
+        }
+
+        .detail {
+          margin-left: 20px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 25px;
+        }
+      }
+    }
+
+    #more_event {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+}
