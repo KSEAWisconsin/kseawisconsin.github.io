@@ -1,0 +1,58 @@
+# For events page (NEWS & EVENTS) upcomming event list
+# Maximum 10 Events allowed
+
+# Template
+## - event_name: # upto 35 character
+##   detail_url: # where detailed description located
+##   date: # Mmm. DD. YYYY
+##   location: # upto 35 char
+
+- event_name: "Wisconsin Science Festival"
+  detail_url: 
+  date: Oct. 19. 2019 (Sat)
+  location: Wisconsin Institute for Discovery
+
+- event_name: KSEA Early Halloween Event
+  detail_url: 
+  date: Oct. 12. 2019 (Sat)
+  location: Schuster's Farm
+
+- event_name: 2019 Fall Membership Drive
+  detail_url: 
+  date: Sep. 7. 2019 (Sat)
+  location: Memorial Union Tripp Commons
+
+- event_name: "KASA KoreU: CultureFest 2019"
+  detail_url: 
+  date: Apr. 19. 2019 (Fri)
+  location: Gordon's Symphonoy Room
+
+- event_name: "2019 National Math & Sci Competition"
+  detail_url: 
+  date: "Apr. 13. 2019 (Sat) 12:45 PM - 3:30 PM"
+  location: Union South
+
+- event_name: Dr. Yu's Seminar
+  detail_url: 
+  date: "Apr. 12. 2019 (Fri) 6:00 PM"
+  location: Union South
+
+- event_name: Wisconsin Science Expeditions
+  detail_url: 
+  date: Apr. 06. 2019 (Sat)
+  location: Wisconsin Institute for Discovery
+
+- event_name: JBC Coffee Tour
+  detail_url: 
+  date: Mar. 30. 2019 (Sat)
+  location: JBC Coffee Roasters
+
+- event_name: KSEA Wisconsin Symposium
+  detail_url: 
+  date: Nov. 03. 2018
+  location: Memorial Union
+
+- event_name: Wisconsin Science Festival
+  detail_url: 
+  date: Oct. 18. 2018 (Sat)
+  location: Wisconsin Institute for Discovery

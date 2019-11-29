@@ -1,0 +1,42 @@
+---
+title: KSEA-Wisconsin | EVENTS
+layout: default
+permalink: /events
+---
+
+<div class = "news_and_events">
+  <div class = "greeting">
+    <p id = "title">NEWS & EVENTS</p>
+    <p id = "description">To get faster update of our events, please follow our Facebook Page<br>
+      <br>
+    </p>
+  </div>
+  <div class = "upcomming_events">
+    <div class = "grid_wrapper">
+      {% for item in site.data.events %}
+        <div class = "event-wrapper"> 
+          <div>
+            {% if item.event_name.size > 35 %}
+              <p class = "event_name">{{ item.event_name | truncate: 32 }}</p>
+            {% else %}
+              <p class = "event_name">{{ item.event_name }}</p>
+            {% endif %}
+
+            <p class = "detail">Date: {{ item.date }}</p>
+                
+            {% if item.location.size > 35 %}
+              <p class = "detail">Location: {{ item.location | truncate: 32 }}</p>
+            {% else %}
+              <p class = "detail">Location: {{ item.location }}</p>
+            {% endif %}
+          </div>
+          <div class = "button-wrapper">
+            <a href = "{{ site.baseurl }}{{ item.detail_url }}">
+              <div class="round-button">More Information</div>
+            </a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
