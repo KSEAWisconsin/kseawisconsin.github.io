@@ -21,7 +21,7 @@ permalink: /
           <a href = "{{ site.baseurl }}{{ item.detail_url }}">
             <div>
               {% if item.event_name.size > 30 %}
-                <p class = "event_name">{{ item.event_name | truncatewords: 27 }}...</p>
+                <p class = "event_name">{{ item.event_name | truncatewords: 27 }}</p>
               {% else %}
                 <p class = "event_name">{{ item.event_name }}</p>
               {% endif %}
@@ -29,23 +29,23 @@ permalink: /
               <p class = "detail">Date: {{ item.date }}</p>
               
               {% if item.location.size > 30 %}
-                <p class = "detail">Location: {{ item.location | truncatewords: 27 }}...</p>
+                <p class = "detail">Location: {{ item.location | truncatewords: 27 }}</p>
               {% else %}
                 <p class = "detail">Location: {{ item.location }}</p>
               {% endif %}
               
               {% if item.additional_info1.size > 40 %}
-                <p class = "detail">{{ item.additional_info1 | truncatewords: 37 }}...</p>
+                <p class = "detail">{{ item.additional_info1 | truncatewords: 37 }}</p>
               {% else %}
                 <p class = "detail">{{ item.additional_info1 }}</p>
               {% endif %}
               {% if item.additional_info2.size > 40 %}
-                <p class = "detail">{{ item.additional_info2 | truncatewords: 37 }}...</p>
+                <p class = "detail">{{ item.additional_info2 | truncatewords: 37 }}</p>
               {% else %}
                 <p class = "detail">{{ item.additional_info2 }}</p>
               {% endif %}
               {% if item.additional_info3.size > 40 %}
-                <p class = "detail">{{ item.additional_info3 | truncatewords: 37 }}...</p>
+                <p class = "detail">{{ item.additional_info3 | truncatewords: 37 }}</p>
               {% else %}
                 <p class = "detail">{{ item.additional_info3 }}</p>
               {% endif %}
