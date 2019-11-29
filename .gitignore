@@ -9,3 +9,6 @@ Gemfile.lock
 
 # WebStorm Files
 .idea/
+
+# Visual Studio Code
+.vs/
