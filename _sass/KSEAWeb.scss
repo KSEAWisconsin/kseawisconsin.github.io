@@ -395,8 +395,8 @@ footer {
     .grid_wrapper {
       display: grid;
       grid-template-columns: 100%;
-      row-gap: 5px;
-      margin-bottom: 5px;
+      row-gap: 10px;
+      margin-bottom: 10px;
 
       .event-wrapper {
         height: 145px;
@@ -496,7 +496,7 @@ footer {
       text-align: center;
       font-size: 18px;
       margin-top: 0px;
-      @media screen and (min-width: 800px) {
+      @media screen and (min-width: 550px) {
         font-size: 30px;
       }
     }
