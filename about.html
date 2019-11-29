@@ -1,0 +1,81 @@
+---
+title: KSEA-Wisconsin | ABOUT
+layout: default
+permalink: /about
+---
+
+<div class = "about">
+  <p id = "main">ABOUT US</p>
+  <img class = "KSEA_group_image" src = "{{ site.baseurl }}/assets/KSEA_group_image.jpg">
+  <p id = "description">KSEA-WISCONSIN is a nationally recognized branch of the Korean-American Scientists andEngineers Association (KSEA).<br>
+    <br>
+    We are a non-profit professional organization with the intent to promote the application of science and technology to the general welfare of society, foster international cooperation, in particular between the U.S. and Korea, and help Korean-American scientists and engineers develop their full career potentials.<br>
+    <br>
+    KSEA WISCONSIN is open to everybody and is not exclusive to scientists and engineers. Anyone who is interested in science & engineering, as well as any applied STEM fields, are welcome to join the group and sign up for the membership. New membership can be obtained @ HQ website through registration.<br>
+  </p>
+  <div class = "namebox">
+    <p id = "leaders">OUR LEADERS</p>
+    <p class = "sub">Executive Officers</p>
+    <div class = "grid_wrapper">
+      {% for item in site.data.about_xo %}
+        <div class = "ppl-wrapper"> 
+          <div>
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <div class = "person_name">{{ item.person_name }}</div>
+            <div class = "standing">{{ item.standing }}</div>
+            {% if item.website_url %}
+              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+            {% endif %}
+          </div>  
+        </div>
+      {% endfor %}
+    </div>
+    <p class = "sub">Directors Committee</p>
+    <div class = "grid_wrapper">
+      {% for item in site.data.about_directors %}
+        <div class = "ppl-wrapper"> 
+          <div>
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <div class = "person_name">{{ item.person_name }}</div>
+            <div class = "standing">{{ item.standing }}</div>
+            {% if item.website_url %}
+              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+            {% endif %}
+          </div>  
+        </div>
+      {% endfor %}
+    </div>
+
+    <p class = "sub">YG (Young Generation) Chapter</p>
+    <div class = "grid_wrapper">
+      {% for item in site.data.about_yg %}
+        <div class = "ppl-wrapper"> 
+          <div>
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <div class = "person_name">{{ item.person_name }}</div>
+            <div class = "standing">{{ item.standing }}</div>
+            {% if item.website_url %}
+              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+            {% endif %}
+          </div>  
+        </div>
+      {% endfor %}
+    </div>
+
+    <p class = "sub">Others</p>
+    <div class = "grid_wrapper">
+      {% for item in site.data.about_others %}
+        <div class = "ppl-wrapper"> 
+          <div>
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <div class = "person_name">{{ item.person_name }}</div>
+            <div class = "standing">{{ item.standing }}</div>
+            {% if item.website_url %}
+              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+            {% endif %}
+          </div>  
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
