@@ -391,18 +391,20 @@ footer {
   .greeting {
     text-align: center;
 
-    #english {
+    #title {
+      font-size: 5.5vw;
       @media screen and (min-width: 1142px){
         font-size: 60px;
       }
-      margin-bottom: 24px;
-      margin-top: 61px;
+      margin-bottom: 30px;
     }
 
     #description {
+      font-size: 2.5vw;
+      line-height: 3vw;
       @media screen and (min-width: 1142px){
         font-size: 28px;
-        line-height: 37px;
+        line-height: 35px;
       }
       margin-bottom: 75px;
       margin-top: 0px;
@@ -410,20 +412,19 @@ footer {
   }
 
   .upcomming_events {
-
     .grid_wrapper {
       display: grid;
       grid-template-columns: 50% 50%;
       column-gap: 18px;
-      row-gap: 22px;
+      row-gap: 20px;
       
       .event-wrapper {
         height: 244px;
         background-color: #B2E4F6;
 
         .event_name {
-          margin-top: 25px;
-          margin-bottom: 20px;
+          margin-top: 20px;
+          margin-bottom: 30px;
           text-align: center;
           font-size: 30px;
         }
@@ -431,20 +432,18 @@ footer {
         .detail {
           margin-left: 20px;
           margin-top: 10px;
-          margin-bottom: 30px;
+          margin-bottom: 10px;
           font-size: 25px;
+        }
+
+        .button-wrapper {
+          margin-bottom: 30px;
+          margin-top: 30px;
         }
 
         .round-button {
           text-align: center;
           font-size: 20px;
-          margin-top: 30px;
-          margin-bottom: 29px;
-          margin-left: 182px;
-          padding-top: 5px;
-          padding-bottom: 5px;
-          padding-left: 26px;
-          padding-right: 24px;
           width: 218px;
           height: 36px;
           background-color: #ffffff;
