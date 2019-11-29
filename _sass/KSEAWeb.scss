@@ -377,7 +377,7 @@ footer {
       font-size: 30px;
     }
   }
-  
+}
   
 .news_and_events {
   //for Desktop NEWS & EVENTS
@@ -461,9 +461,8 @@ footer {
   }
 }
 
-
 .about {
-  //for Desktop NEWS & EVENTS
+  //for about
   font-weight: 700;
 
   a {
@@ -471,7 +470,7 @@ footer {
     text-decoration: none;
   }
 
-  .greeting {
+  .aboutus {
     text-align: center;
 
     #english {
@@ -493,7 +492,7 @@ footer {
     }
   }
 
-  .upcomming_events {
+  .namebox {
 
     .grid_wrapper {
       display: grid;
