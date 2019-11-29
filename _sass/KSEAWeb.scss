@@ -377,7 +377,7 @@ footer {
       font-size: 30px;
     }
   }
-  
+}
   
 .news_and_events {
   //for Desktop NEWS & EVENTS
@@ -466,6 +466,10 @@ footer {
   //for Desktop NEWS & EVENTS
   font-weight: 700;
 
+  .KSEA_group_image {
+    width: 1182px;
+  }
+  
   a {
     color: #000000;
     text-decoration: none;
@@ -541,6 +545,6 @@ footer {
     #more_event {
       text-align: center;
       font-size: 30px;
-    }
+    } 
   }
 }
