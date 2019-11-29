@@ -1,0 +1,8 @@
+# For about page (ABOUT) people list
+
+# Template
+## - place_name: # name of the place
+##   dir: # directory of the place
+
+- place_name: Executive_Officers
+  dir: .pleople.Executive_Officers.yml
