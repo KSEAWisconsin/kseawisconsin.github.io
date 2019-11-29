@@ -911,3 +911,220 @@ footer {
     }
   }    
 }
+
+.taskforce {
+  font-weight: 700;
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  #main {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+  }
+
+  #description {
+    text-align: left;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+
+  // for tablet website
+  @media screen and (min-width: 550px) {
+    #main {
+      font-size: 5.5vw;
+      margin-bottom: 50px;
+      margin-top: 0px;
+    }
+  
+    #description {
+      font-size: 2.5vw;
+      line-height: 3vw;
+      margin-bottom: 100px;
+      margin-top: 0px;  
+    }
+  }
+
+  // for desktop website
+  @media screen and (min-width: 1020px) {
+    #main {
+      font-size: 60px;
+      margin-bottom: 50px;
+      margin-top: 0px;
+    }
+  
+    .KSEA_group_image {
+      margin-bottom: 70px;
+    }
+  
+    #description {
+      font-size: 28px;
+      line-height: 35px;
+      margin-bottom: 100px;
+      margin-top: 0px;  
+    }
+  }
+
+  .namebox {
+    #leaders {
+      text-align: center;
+      font-size: 23px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+
+    .sub {
+      text-align: left;
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+    
+    //for tablet website
+    @media screen and (min-width: 550px) {
+      #leaders {
+        font-size: 5.5vw;
+        margin-bottom: 30px;
+      }
+  
+      .sub {
+        font-size: 4vw;
+        margin-bottom: 20px;
+      }
+    }
+
+    //for desktop website
+    @media screen and (min-width: 1020px) {
+      #leaders {
+        font-size: 60px;
+        margin-bottom: 30px;
+      }
+
+      .sub {
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .grid_wrapper {
+      display: grid;
+      grid-template-columns: 100%;
+      column-gap: 18px;
+      row-gap: 10px;
+      margin-top: 0px;
+      margin-bottom: 40px;
+      
+      .ppl-wrapper {
+        height: 115px;
+        background-color: #B2E4F6;
+        display: grid;
+        
+        .person_image {
+          position: absolute;
+          width: 105px;
+          border-radius: 52.5px;
+          margin-left: 5px;
+          margin-top: 5px;
+        }
+
+        .person_name {
+          margin-left: 116px;
+          margin-top: 35px;
+          margin-bottom: 10px;
+          font-size: 18px;
+        }
+
+        .standing {
+          margin-left: 116px;
+          margin-top: 0px;
+          margin-bottom: 2px;
+          font-size: 14px;
+        }
+        
+        .personal_url {
+          margin-left: 116px;
+          margin-top: 0px;
+          font-size: 11px;
+        }
+      }
+    }
+
+    //for tablet website
+    @media screen and (min-width: 550px) {
+      .grid_wrapper {
+        grid-template-columns: 100%;
+        row-gap: 20px;
+        
+        .ppl-wrapper {
+          height: 220px;
+          
+          .person_image {
+            width: 200px;
+            border-radius: 100px;
+            margin-left: 10px;
+            margin-top: 10px;
+          }
+  
+          .person_name {
+            margin-left: 230px;
+            margin-top: 70px;
+            margin-bottom: 15px;
+            font-size: 30px;
+          }
+  
+          .standing {
+            margin-left: 230px;
+            font-size: 23px;
+          }
+          
+          .personal_url {
+            margin-left: 230px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    //for desktop website
+    @media screen and (min-width: 1020px) {
+      .grid_wrapper {
+        grid-template-columns: 50% 50%;
+        row-gap: 20px;
+
+        .ppl-wrapper {
+          height: 220px;
+          
+          .person_image {
+            width: 200px;
+            border-radius: 100px;
+            margin-left: 10px;
+            margin-top: 10px;
+          }
+  
+          .person_name {
+            margin-left: 230px;
+            margin-top: 70px;
+            margin-bottom: 15px;
+            font-size: 30px;
+          }
+  
+          .standing {
+            margin-left: 230px;
+            font-size: 23px;
+          }
+          
+          .personal_url {
+            margin-left: 230px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }    
+}
