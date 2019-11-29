@@ -53,23 +53,23 @@ permalink: /taskforce
     {% endif %}
 
     {% if site.data.taskforce_BRONZE %}
-    <p class = "sub">BRONZE Contributors</p>
-    <p id = "description">Someone who get more than 40 contribution points for this project.<br>
+      <p class = "sub">BRONZE Contributors</p>
+      <p id = "description">Someone who get more than 40 contribution points for this project.<br>
         These people conduct minimum role on this project, and the KSEA-Wisconsin Chapter certifies that they at least actively participated on the project.
-    <div class = "grid_wrapper">
-      {% for item in site.data.taskforce_BRONZE %}
-        <div class = "ppl-wrapper"> 
-          <div>
-            <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
-            <div class = "person_name">{{ item.person_name }}</div>
-            <div class = "standing">{{ item.standing }}</div>
-            {% if item.website_url %}
-              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
-            {% endif %}
-          </div>  
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-  {% endif %}
+      </p>
+      <div class = "grid_wrapper">
+        {% for item in site.data.taskforce_BRONZE %}
+          <div class = "ppl-wrapper"> 
+            <div>
+              <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
+              <div class = "person_name">{{ item.person_name }}</div>
+              <div class = "standing">{{ item.standing }}</div>
+                {% if item.website_url %}
+                <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+                {% endif %}
+            </div>  
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
 </div>
