@@ -6,40 +6,54 @@
 ##   detail_url: # where detailed description located
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 30 char
-##   additional_info: # Maximum of 3 line, line break: <br>, 40 character per line
+##   additional_info1: # 1st line of additional information. 40 character per line
+##   additional_info2: # 2st line of additional information.
+##   additional_info3: # 2st line of additional information.
+
+- event_name: Monthly Bowling Nightlllllllllllllllll
+  detail_url: 
+  date: Oct. 20. 2019
+  location: Middleton Sports Center
+  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info2: aa 
+  additional_info3: bb
 
 - event_name: Monthly Bowling Night
   detail_url: 
   date: Oct. 20. 2019
   location: Middleton Sports Center
-  additional_info: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info2:
+  additional_info3:
 
 - event_name: Monthly Bowling Night
   detail_url: 
   date: Oct. 20. 2019
   location: Middleton Sports Center
-  additional_info: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info2:
+  additional_info3:
 
 - event_name: Monthly Bowling Night
   detail_url: 
   date: Oct. 20. 2019
   location: Middleton Sports Center
-  additional_info: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info2:
+  additional_info3:
 
 - event_name: Monthly Bowling Night
   detail_url: 
   date: Oct. 20. 2019
   location: Middleton Sports Center
-  additional_info: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info2:
+  additional_info3:
 
 - event_name: Monthly Bowling Night
   detail_url: 
   date: Oct. 20. 2019
   location: Middleton Sports Center
-  additional_info: "Admission Fee: $1 / Game, $1 for Shoes"
-
-- event_name: Monthly Bowling Night
-  detail_url: 
-  date: Oct. 20. 2019
-  location: Middleton Sports Center
-  additional_info: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info2:
+  additional_info3:
