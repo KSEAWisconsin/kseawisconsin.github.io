@@ -1,0 +1,79 @@
+---
+title: KSEA-Wisconsin | TASKFORCE
+layout: default
+permalink: /taskforce
+---
+<div class = "about">
+  <p id = "main">WEBPAGE REBUILDING TASKFORCE</p>
+  <p id = "description"> &nbsp &nbsp &nbsp &nbsp This is the list of members/contributors for the KSEA-Wisconsin Webpage Rebuilding Project. We decide to evaluate each participant by giving a fraction of points for specific tasks by analyzing their participation rate with Github's statistics and some adjustments. The list below identifies all contributors who score more than 40 (Bronze Contributors), and the others will not be written here. (Note that 2 score is equivalence with at least one working hour.)
+    <br>
+    &nbsp &nbsp &nbsp &nbsp For the contributors whose role is developer, all of their contribution scores have been indicated. For other contributors, whose role is either pool member or designer, if they score less than 40, their contribution is not listed here. It means that his/her contribution is not significant or not enough to be identified as a contributor.
+    <br>
+    &nbsp &nbsp &nbsp &nbsp Chief Technology Officer of KSEA-Wisconsin, who roles as Project Manager for this project, certifies that people only listed below serviced for our project. If there is anyone who states that he or she contributed to this project, but not listed in this contributor's list (or on the Poor Performance list), he or she is falsely stating his/her achievement on resume/CV.
+  </p>
+  <div class = "namebox">
+    <p id = "leaders">OUR LEADERS</p>
+    <p class = "sub">Executive Officers</p>
+    <div class = "grid_wrapper">
+      {% for item in site.data.about_xo %}
+        <div class = "ppl-wrapper"> 
+          <div>
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <div class = "person_name">{{ item.person_name }}</div>
+            <div class = "standing">{{ item.standing }}</div>
+            {% if item.website_url %}
+              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+            {% endif %}
+          </div>  
+        </div>
+      {% endfor %}
+    </div>
+    <p class = "sub">Directors Committee</p>
+    <div class = "grid_wrapper">
+      {% for item in site.data.about_directors %}
+        <div class = "ppl-wrapper"> 
+          <div>
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <div class = "person_name">{{ item.person_name }}</div>
+            <div class = "standing">{{ item.standing }}</div>
+            {% if item.website_url %}
+              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+            {% endif %}
+          </div>  
+        </div>
+      {% endfor %}
+    </div>
+
+    <p class = "sub">YG (Young Generation) Chapter</p>
+    <div class = "grid_wrapper">
+      {% for item in site.data.about_yg %}
+        <div class = "ppl-wrapper"> 
+          <div>
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <div class = "person_name">{{ item.person_name }}</div>
+            <div class = "standing">{{ item.standing }}</div>
+            {% if item.website_url %}
+              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+            {% endif %}
+          </div>  
+        </div>
+      {% endfor %}
+    </div>
+
+    <p class = "sub">Others</p>
+    <div class = "grid_wrapper">
+      {% for item in site.data.about_others %}
+        <div class = "ppl-wrapper"> 
+          <div>
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <div class = "person_name">{{ item.person_name }}</div>
+            <div class = "standing">{{ item.standing }}</div>
+            {% if item.website_url %}
+              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+            {% endif %}
+          </div>  
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
