@@ -15,10 +15,10 @@ layout: default
     </p>
     <div class = "namebox">
       <p id = "main">OUR LEADERS</p>
-      <p id = "sub">Executive Officers</p>
+      {% for name in site.data.place_list %}
+      <p id = "sub">{{ name.place_name }}</p>
         <div class = "grid_wrapper">
-            {% for item in site.data.about_people %}
-              {% if item.place == "EO" %}
+            {% for item in site.data{{ name.dir }} %}
               <div class = "event-wrapper"> 
                   <div>
                       <img class = "person_image" src = "{{ site.baseurl }}{{ item.image_url }}">
@@ -27,42 +27,8 @@ layout: default
                       <div class = "personal_url">Personal Webstie: {{ item.webstie_url }}</div>
                   </div>  
               </div>
-              {% endif %}
             {% endfor %}
           </div>
-          <p id = "sub">Directors Committee</p>
-          <div class = "namebox">
-              <div class = "grid_wrapper">
-                  {% for item in site.data.about_people %}
-                    {% if item.place == "DC" %}
-                    <div class = "event-wrapper"> 
-                        <div>
-                            <img class = "person_image" src = "{{ site.baseurl }}{{ item.image_url }}">
-                            <div class = "person_name">{{ item.person_name }}</div>
-                            <div class = "standing">{{ item.standing }}</div>
-                            <div class = "personal_url">Personal Webstie: {{ item.webstie_url }}</div>
-                        </div>  
-                    </div>
-                    {% endif %}
-                  {% endfor %}
-                </div>
-          </div>
-          <p id = "sub">YG (Young Generation) Chapter</p>
-          <div class = "namebox">
-              <div class = "grid_wrapper">
-                  {% for item in site.data.about_people %}
-                    {% if item.place == "YG" %}
-                    <div class = "event-wrapper"> 
-                        <div>
-                            <img class = "person_image" src = "{{ site.baseurl }}{{ item.image_url }}">
-                            <div class = "person_name">{{ item.person_name }}</div>
-                            <div class = "standing">{{ item.standing }}</div>
-                            <div class = "personal_url">Personal Webstie: {{ item.webstie_url }}</div>
-                        </div>  
-                    </div>
-                    {% endif %}
-                  {% endfor %}
-                </div>
-          </div>
+       {% endfor %}   
       </div>
 </div>
