@@ -299,6 +299,7 @@ footer {
 }
 
 .news_and_events {
+  //for Desktop NEWS & EVENTS
   font-weight: 700;
 
   a {
@@ -349,20 +350,25 @@ footer {
         .detail {
           margin-left: 20px;
           margin-top: 10px;
-          margin-bottom: 10px;
+          margin-bottom: 30px;
           font-size: 25px;
         }
 
         .round-button {
           text-align: center;
-          line-height: 27px;
-          margin: auto;
+          font-size: 20px;
+          margin-top: 30px;
+          margin-bottom: 29px;
+          margin-left: 182px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 26px;
+          padding-right: 24px;
           width: 218px;
           height: 36px;
           background-color: #ffffff;
           border-radius: 18px;
           color: #000000;
-          text-decoration: none;
         }
       }
     }
