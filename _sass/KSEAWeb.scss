@@ -374,6 +374,7 @@ footer {
       display: grid;
       grid-template-columns: 100%;
       row-gap: 5px;
+      margin-bottom: 5px;
 
       .event-wrapper {
         height: 145px;
@@ -409,6 +410,7 @@ footer {
         grid-template-columns: 50% 50%;
         column-gap: 18px;
         row-gap: 22px;
+        margin-bottom: 18px;
         
         .event-wrapper {
           height: 300px;
@@ -433,7 +435,11 @@ footer {
 
     #more_event {
       text-align: center;
-      font-size: 30px;
+      font-size: 18px;
+      margin-top: 0px;
+      @media screen and (min-width: 800px) {
+        font-size: 30px;
+      }
     }
   }
 }
