@@ -7,20 +7,32 @@
 ##   standing: # the standing of the person
 ##   website_url: # url of personal website
 
-- person_name: HYECHEOL JANG
-  place: EO
-  image_url: /assets/about_us_image/HYECHEOL_JANG.jpg
-  standing: Chief Technology Officer
-  webstie_url: hcjang.com
-
-- person_name: HYECHEOL JANG Jr.
-  place: DC
-  image_url: /assets/about_us_image/HYECHEOL_JANG.jpg
-  standing: Chief Technology Officer
-  webstie_url: hcjang.com
-
-- person_name: HYECHEOL JANG Jr 2.
-  place: YG
-  image_url: /assets/about_us_image/HYECHEOL_JANG.jpg
-  standing: Chief Technology Officer
-  webstie_url: hcjang.com
+ - person_name: JONGHYUN LEE
+  image_url: JONGHYUN_LEE.jpg
+  standing: President
+  webstie_url: 
+  
+- person_name: KWON LEE
+  image_url: KWON_LEE.jpg
+  standing: Vice President
+  webstie_url: 
+  
+- person_name: SUNGJUNE KIM
+  image_url: SUNGJUNE_KIM.jpg
+  standing: Secretary
+  webstie_url: 
+  
+- person_name: SEUNGJE SEONG
+  image_url: SEUNGJE_SEONG.jpg
+  standing: Public Relations
+  webstie_url: 
+  
+- person_name: TAEKYUNG KIM
+  image_url: TAEKYUNG_KIM.jpg
+  standing: Event Coordinator
+  webstie_url: 
+  
+- person_name: HYEONJI KIM
+  image_url: HYEONJI_KIM.jpg
+  standing: Finance Director
+  webstie_url: 
