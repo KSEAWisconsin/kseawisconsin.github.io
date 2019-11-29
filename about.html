@@ -21,9 +21,9 @@ layout: default
               <div class = "event-wrapper"> 
                   <div>
                       <img class = "person_image" src = "{{ site.baseurl }}{{ item.image_url }}">
-                      <p class = "person_name">{{ item.person_name }}</p>
-                      <p class = "standing">{{ item.standing }}</p>
-                      <p class = "personal_url">{{ item.website_url }}</p>
+                      <div class = "person_name">{{ item.person_name }}</div>
+                      <div class = "standing">{{ item.standing }}</div>
+                      <div class = "personal_url">Personal Webstie: {{ item.webstie_url }}</div>
                   </div>
               </div>
             {% endfor %}

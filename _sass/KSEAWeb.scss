@@ -522,27 +522,27 @@ footer {
           border-radius: 100px;
           margin-left: 10px;
           margin-top: 10px;
+          position: absolute;
         }
 
         .person_name {
-          margin-left: 20px;
-          margin-top: 25px;
-          margin-bottom: 20px;
-          text-align: center;
+          margin-left: 230px;
+          margin-top: 64px;
+          text-align: left;
           font-size: 30px;
         }
 
         .standing {
-          margin-left: 20px;
-          margin-top: 10px;
-          margin-bottom: 30px;
+          margin-left: 230px;
+          margin-top: 9px;
+          text-align: left;
           font-size: 25px;
         }
         
         .personal_url {
-          margin-left: 20px;
-          margin-top: 10px;
-          margin-bottom: 30px;
+          margin-left: 230px;
+          margin-top: 2px;
+          text-align: left;
           font-size: 16px;
         }
       }
