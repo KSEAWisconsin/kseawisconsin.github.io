@@ -424,7 +424,7 @@ footer {
         .event_name {
           margin-top: 25px;
           margin-bottom: 20px;
-          text-align: center;
+          text-align: left;
           font-size: 30px;
         }
 
@@ -432,11 +432,12 @@ footer {
           margin-left: 20px;
           margin-top: 10px;
           margin-bottom: 30px;
+          text-align: left;
           font-size: 25px;
         }
 
         .round-button {
-          text-align: center;
+          text-align: left;
           font-size: 20px;
           margin-top: 30px;
           margin-bottom: 29px;
@@ -514,6 +515,14 @@ footer {
       .event-wrapper {
         height: 220px;
         background-color: #B2E4F6;
+        display: grid;
+        
+        .person_image {
+          width: 200px;
+          border-radius: 100px;
+          margin-left: 10px;
+          margin-top: 10px;
+        }
 
         .person_name {
           margin-left: 20px;

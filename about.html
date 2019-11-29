@@ -17,22 +17,13 @@ layout: default
       <p id = "main">OUR LEADERS</p>
       <p id = "sub">Executive Officers</p>
         <div class = "grid_wrapper">
-            {% for item in site.data.events_events%}
+            {% for item in site.data.about_people %}
               <div class = "event-wrapper"> 
                   <div>
-                      {% if item.event_name.size > 30 %}
-                      <p class = "event_name">{{ item.event_name | truncatewords: 27 }}...</p>
-                      {% else %}
-                      <p class = "event_name">{{ item.event_name }}</p>
-                      {% endif %}
-  
-                      <p class = "detail">Date: {{ item.date }}</p>
-                      
-                      {% if item.location.size > 30 %}
-                      <p class = "detail">Location: {{ item.location | truncatewords: 27 }}...</p>
-                      {% else %}
-                      <p class = "detail">Location: {{ item.location }}</p>
-                      {% endif %}
+                      <img class = "person_image" src = "{{ site.baseurl }}{{ item.image_url }}">
+                      <p class = "person_name">{{ item.person_name }}</p>
+                      <p class = "standing">{{ item.standing }}</p>
+                      <p class = "personal_url">{{ item.website_url }}</p>
                   </div>
               </div>
             {% endfor %}
