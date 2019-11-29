@@ -379,6 +379,7 @@ footer {
     }
   }
 }
+
 .news_and_events {
   //for Desktop NEWS & EVENTS
   font-weight: 700;
@@ -415,23 +416,23 @@ footer {
       display: grid;
       grid-template-columns: 50% 50%;
       column-gap: 18px;
-      row-gap: 22px;
+      row-gap: 20px;
       
       .event-wrapper {
         height: 244px;
         background-color: #B2E4F6;
 
         .event_name {
-          margin-top: 25px;
-          margin-bottom: 20px;
+          margin-top: 14px;
+          margin-bottom: 24px;
           text-align: center;
           font-size: 30px;
         }
 
         .detail {
           margin-left: 20px;
-          margin-top: 10px;
-          margin-bottom: 30px;
+          margin-top: 4px;
+          margin-bottom: 4px;
           font-size: 25px;
         }
 
