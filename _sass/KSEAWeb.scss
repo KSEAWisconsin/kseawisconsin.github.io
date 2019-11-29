@@ -391,7 +391,7 @@ footer {
     text-align: center;
 
     #title {
-      font-size: 5.5vw;
+      font-size: 23px;
       @media screen and (min-width: 1142px){
         font-size: 60px;
       }
@@ -399,8 +399,8 @@ footer {
     }
 
     #description {
-      font-size: 2.5vw;
-      line-height: 3vw;
+      font-size: 16px;
+      line-height: 20px;
       @media screen and (min-width: 1142px){
         font-size: 28px;
         line-height: 35px;
@@ -416,9 +416,9 @@ footer {
       grid-template-columns: 100%;
       row-gap: 5px;
       @media screen and (min-width: 1142px){
-        grid-template-columns: 50% 50%;
-        column-gap: 18px;
-        row-gap: 20px;
+      grid-template-columns: 50% 50%;
+      column-gap: 18px;
+      row-gap: 20px;
       }
       
       .event-wrapper {
@@ -426,17 +426,25 @@ footer {
         background-color: #B2E4F6;
 
         .event_name {
+          text-align: center;
+          font-size: 18px;
+          @media screen and (min-width: 1142px){
           margin-top: 20px;
           margin-bottom: 30px;
           text-align: center;
           font-size: 30px;
+          }
         }
 
         .detail {
+          margin-left: 10px;
+          font-size: 14px;
+          @media screen and (min-width: 1142px){
           margin-left: 20px;
           margin-top: 10px;
           margin-bottom: 10px;
           font-size: 25px;
+          }
         }
 
         .button-wrapper {
