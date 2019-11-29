@@ -413,9 +413,13 @@ footer {
   .upcomming_events {
     .grid_wrapper {
       display: grid;
-      grid-template-columns: 50% 50%;
-      column-gap: 18px;
-      row-gap: 20px;
+      grid-template-columns: 100%;
+      row-gap: 5px;
+      @media screen and (min-width: 1142px){
+        grid-template-columns: 50% 50%;
+        column-gap: 18px;
+        row-gap: 20px;
+      }
       
       .event-wrapper {
         height: 244px;
