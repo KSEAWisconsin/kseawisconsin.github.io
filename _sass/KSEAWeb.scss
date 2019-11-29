@@ -920,6 +920,7 @@ footer {
     text-decoration: none;
   }
 
+  // for mobile website
   #main {
     text-align: center;
     font-size: 23px;
@@ -939,14 +940,14 @@ footer {
   @media screen and (min-width: 550px) {
     #main {
       font-size: 5.5vw;
-      margin-bottom: 50px;
+      margin-bottom: 40px;
       margin-top: 0px;
     }
   
     #description {
       font-size: 2.5vw;
       line-height: 3vw;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
       margin-top: 0px;  
     }
   }
@@ -955,30 +956,20 @@ footer {
   @media screen and (min-width: 1020px) {
     #main {
       font-size: 60px;
-      margin-bottom: 50px;
+      margin-bottom: 40px;
       margin-top: 0px;
-    }
-  
-    .KSEA_group_image {
-      margin-bottom: 70px;
     }
   
     #description {
       font-size: 28px;
       line-height: 35px;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
       margin-top: 0px;  
     }
   }
 
   .namebox {
-    #leaders {
-      text-align: center;
-      font-size: 23px;
-      margin-bottom: 20px;
-      margin-top: 0px;
-    }
-
+    // for mobile website
     .sub {
       text-align: left;
       font-size: 20px;
@@ -987,12 +978,7 @@ footer {
     }
     
     //for tablet website
-    @media screen and (min-width: 550px) {
-      #leaders {
-        font-size: 5.5vw;
-        margin-bottom: 30px;
-      }
-  
+    @media screen and (min-width: 550px) {  
       .sub {
         font-size: 4vw;
         margin-bottom: 20px;
@@ -1001,11 +987,6 @@ footer {
 
     //for desktop website
     @media screen and (min-width: 1020px) {
-      #leaders {
-        font-size: 60px;
-        margin-bottom: 30px;
-      }
-
       .sub {
         font-size: 40px;
         margin-bottom: 20px;
