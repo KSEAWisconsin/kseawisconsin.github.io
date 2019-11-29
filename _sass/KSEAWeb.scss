@@ -476,8 +476,6 @@ footer {
   }
 
 
-  .aboutus {
-
     #main {
       text-align: center;
       @media screen and (min-width: 1142px){
@@ -504,7 +502,6 @@ footer {
       margin-bottom: 75px;
       margin-top: 0px;
     }
-  }
 
   .namebox {
 
@@ -515,45 +512,31 @@ footer {
       row-gap: 22px;
       
       .event-wrapper {
-        height: 244px;
+        height: 220px;
         background-color: #B2E4F6;
 
-        .event_name {
+        .person_name {
+          margin-left: 20px;
           margin-top: 25px;
           margin-bottom: 20px;
           text-align: center;
           font-size: 30px;
         }
 
-        .detail {
+        .standing {
           margin-left: 20px;
           margin-top: 10px;
           margin-bottom: 30px;
           font-size: 25px;
         }
-
-        .round-button {
-          text-align: center;
-          font-size: 20px;
-          margin-top: 30px;
-          margin-bottom: 29px;
-          margin-left: 182px;
-          padding-top: 5px;
-          padding-bottom: 5px;
-          padding-left: 26px;
-          padding-right: 24px;
-          width: 218px;
-          height: 36px;
-          background-color: #ffffff;
-          border-radius: 18px;
-          color: #000000;
+        
+        .personal_url {
+          margin-left: 20px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+          font-size: 16px;
         }
       }
     }
-
-    #more_event {
-      text-align: center;
-      font-size: 30px;
-    } 
   }
 }
