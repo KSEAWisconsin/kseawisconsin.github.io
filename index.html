@@ -2,3 +2,59 @@
 title: KSEA-Wisconsin | HOME
 layout: default
 ---
+
+<div class = "home">
+  <div class = "greeting">
+    <p id = "english">KSEA WISCONSIN CHAPTER</p>
+    <p id = "korean">위스콘신 ​재미한인과학기술자협회</p>
+    <p id = "description">Korean-American Scientists and Engineers Association Wisconsin Chapter wants to spread our knowledge and compassion.<br>
+      <br>
+      We are open to everyone who is interested in science and engineering.
+    </p>
+  </div>
+  <div class = "upcomming_events">
+    <p id = "title">Upcoming Events</p>
+    <div class = "grid_wrapper">
+      {% for item in site.data.home_events limit: 6 %}
+        <div class = "event-wrapper">
+          <a href = "{{ site.baseurl }}{{ item.detail_url }}">
+            <div>
+              {% if item.event_name.size > 30 %}
+                <p class = "event_name">{{ item.event_name | truncatewords: 27 }}...</p>
+              {% else %}
+                <p class = "event_name">{{ item.event_name }}</p>
+              {% endif %}
+
+              <p class = "detail">Date: {{ item.date }}</p>
+              
+              {% if item.location.size > 30 %}
+                <p class = "detail">Location: {{ item.location | truncatewords: 27 }}...</p>
+              {% else %}
+                <p class = "detail">Location: {{ item.location }}</p>
+              {% endif %}
+              
+              {% if item.additional_info1.size > 40 %}
+                <p class = "detail">{{ item.additional_info1 | truncatewords: 37 }}...</p>
+              {% else %}
+                <p class = "detail">{{ item.additional_info1 }}</p>
+              {% endif %}
+              {% if item.additional_info2.size > 40 %}
+                <p class = "detail">{{ item.additional_info2 | truncatewords: 37 }}...</p>
+              {% else %}
+                <p class = "detail">{{ item.additional_info2 }}</p>
+              {% endif %}
+              {% if item.additional_info3.size > 40 %}
+                <p class = "detail">{{ item.additional_info3 | truncatewords: 37 }}...</p>
+              {% else %}
+                <p class = "detail">{{ item.additional_info3 }}</p>
+              {% endif %}
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    <a href = "{{ site.baseurl }}/events">
+      <p id = "more_event">VIEW MORE EVENTS AND NEWS</p>
+    </a>
+  </div>
+</div>
