@@ -7,22 +7,17 @@
 ##   standing: # the standing of the person
 ##   website_url: # url of personal website
 
-  - person_name: YUNHWA CHOI
-  image_url: /YUNHWA_CHOI.jpg
-  standing: President
+- person_name: MINHO KWON
+  image_url: MINHO_KWON.jpg
+  standing: Director of Basic Sciences
+  webstie_url: mkwon.org
+  
+- person_name: JAEHYUNG CHOI
+  image_url: JAEHYUNG_CHOI.jpg
+  standing: Director of Pharmacy
   webstie_url: 
-
-  - person_name: CHANGHUN JO
-  image_url: /CHANGHUN_JO.jpg
-  standing: Vice President
+  
+- person_name: DONGHWAN JEON
+  image_url: DONGHWAN_JEON.jpg
+  standing: Director of Public Relations
   webstie_url: 
-
-  - person_name: DASOL CHOI
-  image_url: /DASOL_CHOI.jpg
-  standing: Secretary General
-  webstie_url: 
-
-- person_name: HYECHEOL JANG
-  image_url: /HYECHEOL_JANG.jpg
-  standing: Chief Technology Officer
-  webstie_url: hcjang.com
