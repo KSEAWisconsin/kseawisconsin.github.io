@@ -7,17 +7,17 @@
 ##   standing: # the standing of the person
 ##   website_url: # url of personal website
 
-  - person_name: YUNHWA CHOI
+- person_name: YUNHWA CHOI
   image_url: /YUNHWA_CHOI.jpg
   standing: President
   webstie_url: 
 
-  - person_name: CHANGHUN JO
+- person_name: CHANGHUN JO
   image_url: /CHANGHUN_JO.jpg
   standing: Vice President
   webstie_url: 
 
-  - person_name: DASOL CHOI
+- person_name: DASOL CHOI
   image_url: /DASOL_CHOI.jpg
   standing: Secretary General
   webstie_url: 

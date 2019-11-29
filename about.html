@@ -15,10 +15,10 @@ layout: default
     </p>
     <div class = "namebox">
       <p id = "main">OUR LEADERS</p>
-      {% for name in site.data.place_list %}
-      <p id = "sub">{{ name.place_name }}</p>
+
+      <p id = "sub">Executive Officers</p>
         <div class = "grid_wrapper">
-            {% for item in site.data{{ name.dir }} %}
+            {% for item in site.data.about_xo %}
               <div class = "event-wrapper"> 
                   <div>
                       <img class = "person_image" src = "{{ site.baseurl }}{{ item.image_url }}">
@@ -29,6 +29,47 @@ layout: default
               </div>
             {% endfor %}
           </div>
-       {% endfor %}   
+
+          <p id = "sub">Directors Committee</p>
+          <div class = "grid_wrapper">
+              {% for item in site.data.about_directors %}
+                <div class = "event-wrapper"> 
+                    <div>
+                        <img class = "person_image" src = "{{ site.baseurl }}{{ item.image_url }}">
+                        <div class = "person_name">{{ item.person_name }}</div>
+                        <div class = "standing">{{ item.standing }}</div>
+                        <div class = "personal_url">Personal Webstie: {{ item.webstie_url }}</div>
+                    </div>  
+                </div>
+              {% endfor %}
+            </div>
+
+          <p id = "sub">Young Generation</p>
+            <div class = "grid_wrapper">
+                {% for item in site.data.about_yg %}
+                  <div class = "event-wrapper"> 
+                      <div>
+                          <img class = "person_image" src = "{{ site.baseurl }}{{ item.image_url }}">
+                          <div class = "person_name">{{ item.person_name }}</div>
+                          <div class = "standing">{{ item.standing }}</div>
+                          <div class = "personal_url">Personal Webstie: {{ item.webstie_url }}</div>
+                      </div>  
+                  </div>
+                {% endfor %}
+            </div>
+
+          <p id = "sub">Others</p>
+          <div class = "grid_wrapper">
+              {% for item in site.data.about_others %}
+                <div class = "event-wrapper"> 
+                    <div>
+                        <img class = "person_image" src = "{{ site.baseurl }}{{ item.image_url }}">
+                        <div class = "person_name">{{ item.person_name }}</div>
+                        <div class = "standing">{{ item.standing }}</div>
+                        <div class = "personal_url">Personal Webstie: {{ item.webstie_url }}</div>
+                    </div>  
+                </div>
+              {% endfor %}
+          </div>
       </div>
 </div>
