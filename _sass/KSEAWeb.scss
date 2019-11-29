@@ -413,16 +413,19 @@ footer {
   .upcomming_events {
     .grid_wrapper {
       display: grid;
-      grid-template-columns: 100%;
+      grid-template-columns: 98.5%;
       row-gap: 5px;
-      @media screen and (min-width: 1142px){
+      @media screen and (min-width: 800px){
       grid-template-columns: 50% 50%;
       column-gap: 18px;
       row-gap: 20px;
       }
       
       .event-wrapper {
-        height: 244px;
+        height: 136px;
+        @media screen and (min-width: 800px){
+          height: 244px;
+        }
         background-color: #B2E4F6;
 
         .event_name {
@@ -430,7 +433,7 @@ footer {
           font-size: 18px;
           margin-top: 0px;
           margin-bottom: 17px;
-          @media screen and (min-width: 1142px){
+          @media screen and (min-width: 800px){
           margin-top: 20px;
           margin-bottom: 30px;
           text-align: center;
@@ -441,7 +444,7 @@ footer {
         .detail {
           margin-left: 10px;
           font-size: 14px;
-          @media screen and (min-width: 1142px){
+          @media screen and (min-width: 800px){
           margin-left: 20px;
           margin-top: 10px;
           margin-bottom: 10px;
@@ -453,7 +456,7 @@ footer {
           margin-bottom: 15px;
           margin-top: 15px;
           text-align: center;
-          @media screen and (min-width: 1142px){
+          @media screen and (min-width: 800px){
             margin-bottom: 30px;
             margin-top: 30px;
           }
@@ -465,7 +468,7 @@ footer {
           line-height: 23px;
           width: 168px;
           height: 27px;
-          @media screen and (min-width: 1142px){
+          @media screen and (min-width: 800px){
             font-size: 20px;
             line-height: 36px;
             width: 218px;
