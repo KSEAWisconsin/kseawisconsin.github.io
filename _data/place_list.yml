@@ -4,5 +4,14 @@
 ## - place_name: # name of the place
 ##   dir: # directory of the place
 
-- place_name: Executive_Officers
-  dir: .pleople.Executive_Officers.yml
+- place_name: Executive Officers
+  dir: .about_xo
+
+- place_name: Directors Committee
+  dir: .about_directors
+
+- place_name: Young Generation
+  dir: .about_yg
+
+- place_name: Others
+  dir: .about_others
