@@ -2,12 +2,12 @@
 # Maximum 10 Events allowed
 
 # Template
-## - event_name: # upto 30 character
+## - event_name: # upto 35 character
 ##   detail_url: # where detailed description located
 ##   date: # Mmm. DD. YYYY
-##   location: # upto 30 char
+##   location: # upto 35 char
 
-- event_name: Wisconsin Science Festival
+- event_name: "Wisconsin Science Festival"
   detail_url: 
   date: Oct. 19. 2019 (Sat)
   location: Wisconsin Institute for Discovery
@@ -27,7 +27,7 @@
   date: Apr. 19. 2019 (Fri)
   location: Gordon's Symphonoy Room
 
-- event_name: 2019 National Math & Sci Competition
+- event_name: "2019 National Math & Sci Competition"
   detail_url: 
   date: "Apr. 13. 2019 (Sat) 12:45 PM - 3:30 PM"
   location: Union South
