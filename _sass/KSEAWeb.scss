@@ -328,6 +328,28 @@ footer {
       margin-top: 0px;
     }
 
+    // for Table home greeting
+    @media screen and (min-width: 550px) {
+      #english {
+        font-size: 7vw;
+        margin-bottom: 20px;
+        margin-top: 0px;
+      }
+
+      #korean {
+        font-size: 5.5vw;
+        margin-bottom: 70px;
+        margin-top: 0px;
+      }
+
+      #description {
+        font-size: 2.5vw;
+        line-height: 3vw;
+        margin-bottom: 70px;
+        margin-top: 0px;
+      }
+    }
+
     // for Desktop home greeting
     @media screen and (min-width: 800px) {
       #english {
@@ -396,8 +418,45 @@ footer {
       }
     }
 
+    // for Tablet home upcomming_events
+    @media screen and (min-width: 550px) {
+      #title {
+        text-align: left;
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+      }
+
+      .grid_wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 0px;
+        row-gap: 22px;
+        margin-bottom: 18px;
+
+        .event-wrapper {
+          height: 290px;
+          background-color: #B2E4F6;
+
+          .event_name {
+            margin-top: 25px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 30px;
+          }
+
+          .detail {
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+
     // for Desktop home upcomming_events
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 980px) {
       #title {
         text-align: left;
         font-size: 40px;
@@ -413,7 +472,7 @@ footer {
         margin-bottom: 18px;
         
         .event-wrapper {
-          height: 300px;
+          height: 290px;
           background-color: #B2E4F6;
 
           .event_name {
@@ -427,7 +486,7 @@ footer {
             margin-left: 20px;
             margin-top: 10px;
             margin-bottom: 10px;
-            font-size: 25px;
+            font-size: 24px;
           }
         }
       }
