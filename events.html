@@ -22,7 +22,7 @@ permalink: /events
               <p class = "event_name">{{ item.event_name }}</p>
             {% endif %}
 
-            <p class = "detail">Date: {{ item.date }}</p>
+            <p class = "detail">{{ item.date }}</p>
                 
             {% if item.location.size > 35 %}
               <p class = "detail">Location: {{ item.location | truncate: 32 }}</p>
