@@ -8,31 +8,28 @@ layout: default
     <p id = "english">NEWS & EVENTS</p>
     <p id = "description">To get faster update of our events, please follow our Facebook Page<br>
       <br>
-      We are open to everyone who is interested in science and engineering.
     </p>
   </div>
     <div class = "upcomming_events">
-        <p id = "title">Upcoming Events</p>
         <div class = "grid_wrapper">
           {% for item in site.data.events_events%}
-            <div class = "event-wrapper">
-              <a href = "{{ site.baseurl }}{{ item.detail_url }}">
+            <div class = "event-wrapper"> 
                 <div>
-                  {% if item.event_name.size > 30 %}
+                    {% if item.event_name.size > 30 %}
                     <p class = "event_name">{{ item.event_name | truncatewords: 27 }}...</p>
-                  {% else %}
+                    {% else %}
                     <p class = "event_name">{{ item.event_name }}</p>
-                  {% endif %}
-    
-                  <p class = "detail">Date: {{ item.date }}</p>
-                  
-                  {% if item.location.size > 30 %}
+                    {% endif %}
+
+                    <p class = "detail">Date: {{ item.date }}</p>
+                    
+                    {% if item.location.size > 30 %}
                     <p class = "detail">Location: {{ item.location | truncatewords: 27 }}...</p>
-                  {% else %}
+                    {% else %}
                     <p class = "detail">Location: {{ item.location }}</p>
-                  {% endif %}
+                    {% endif %}
                 </div>
-              </a>
+              <a href = "{{ site.baseurl }}{{ item.detail_url }}" target="_blank" class="round-button">More Information</a>
             </div>
           {% endfor %}
         </div>

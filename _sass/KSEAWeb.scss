@@ -331,12 +331,6 @@ footer {
   }
 
   .upcomming_events {
-    #title {
-      text-align: left;
-      font-size: 40px;
-      margin-bottom: 20px;
-      margin-top: 0px;
-    }
 
     .grid_wrapper {
       display: grid;
@@ -360,6 +354,18 @@ footer {
           margin-top: 10px;
           margin-bottom: 10px;
           font-size: 25px;
+        }
+
+        .round-button {
+          text-align: center;
+          line-height: 27px;
+          margin: auto;
+          width: 218px;
+          height: 36px;
+          background-color: #ffffff;
+          border-radius: 18px;
+          color: #000000;
+          text-decoration: none;
         }
       }
     }
