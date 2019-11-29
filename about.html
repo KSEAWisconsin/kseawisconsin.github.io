@@ -1,0 +1,40 @@
+---
+title: KSEA-Wisconsin | HOME
+layout: default
+---
+
+<div class = "about">
+  <div class = "greeting">
+    <p id = "english">ABOUT US</p>
+<! –– picture goes here ––>
+    <p id = "description"><br>
+      <br>
+    </p>
+  </div>
+    <div class = "upcomming_events">
+        <div class = "grid_wrapper">
+          {% for item in site.data.events_events%}
+            <div class = "event-wrapper"> 
+                <div>
+                    {% if item.event_name.size > 30 %}
+                    <p class = "event_name">{{ item.event_name | truncatewords: 27 }}...</p>
+                    {% else %}
+                    <p class = "event_name">{{ item.event_name }}</p>
+                    {% endif %}
+
+                    <p class = "detail">Date: {{ item.date }}</p>
+                    
+                    {% if item.location.size > 30 %}
+                    <p class = "detail">Location: {{ item.location | truncatewords: 27 }}...</p>
+                    {% else %}
+                    <p class = "detail">Location: {{ item.location }}</p>
+                    {% endif %}
+                </div>
+                <div>
+                    <a href = "{{ site.baseurl }}{{ item.detail_url }}" target="_blank" class="round-button">More Information</a>
+                </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+</div>
