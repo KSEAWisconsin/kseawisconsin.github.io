@@ -379,7 +379,6 @@ footer {
     }
   }
 }
-
 .news_and_events {
   //for Desktop NEWS & EVENTS
   font-weight: 700;
@@ -440,16 +439,19 @@ footer {
         .button-wrapper {
           margin-bottom: 30px;
           margin-top: 30px;
+          text-align: center;
         }
 
         .round-button {
           text-align: center;
           font-size: 20px;
+          line-height: 36px;
           width: 218px;
           height: 36px;
           background-color: #ffffff;
           border-radius: 18px;
           color: #000000;
+          display: inline-block;
         }
       }
     }
