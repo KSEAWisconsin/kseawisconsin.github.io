@@ -1,0 +1,38 @@
+# For about page (ABOUT) people list
+
+# Template
+## - person_name: # upto 15 character
+##   place: # where this person belongs to
+##   image_url: # url of the image of the person(default: <needed>)
+##   standing: # the standing of the person
+##   website_url: # url of personal website
+
+- person_name: JONGHYUN LEE
+  image_url: /JONGHYUN_LEE.jpg
+  standing: President
+  website_url: 
+  
+- person_name: KWON LEE
+  image_url: /KWON_LEE.jpg
+  standing: Vice President
+  website_url: 
+  
+- person_name: SUNGJUNE KIM
+  image_url: /SUNGJUNE_KIM.jpg
+  standing: Secretary
+  website_url: 
+  
+- person_name: SEUNGJE SEONG
+  image_url: /SEUNGJE_SEONG.jpg
+  standing: Public Relations
+  website_url: 
+  
+- person_name: TAEKYUNG KIM
+  image_url: /TAEKYUNG_KIM.jpg
+  standing: Event Coordinator
+  website_url: 
+  
+- person_name: HYEONJI KIM
+  image_url: /HYEONJI_KIM.jpg
+  standing: Finance Director
+  website_url: 

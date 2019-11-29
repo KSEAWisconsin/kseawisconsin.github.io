@@ -1,0 +1,23 @@
+# For about page (ABOUT) people list
+
+# Template
+## - person_name: # upto 15 character
+##   place: # where this person belongs to
+##   image_url: # url of the image of the person(default: <needed>)
+##   standing: # the standing of the person
+##   website_url: # url of personal website
+
+- person_name: MINHO KWON
+  image_url: /MINHO_KWON.jpg
+  standing: Director of Basic Sciences
+  website_url: mkwon.org
+  
+- person_name: JAEHYUNG CHOI
+  image_url: /JAEHYUNG_CHOI.jpg
+  standing: Director of Pharmacy
+  website_url: 
+  
+- person_name: DONGHWAN JEON
+  image_url: /DONGHWAN_JEON.jpg
+  standing: Director of Public Relations
+  website_url: 
