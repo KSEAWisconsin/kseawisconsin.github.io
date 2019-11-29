@@ -464,58 +464,58 @@ footer {
 }
 
 .about {
-  //for about
   font-weight: 700;
 
-  .KSEA_group_image {
-    width: 1182px;
-    margin-bottom: 70px;
-  }
-  
   a {
     color: #000000;
     text-decoration: none;
   }
 
+  #main {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
 
-    #main {
+  .KSEA_group_image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+  }
+
+  #description {
+    text-align: left;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+
+  .namebox {
+    #leaders {
       text-align: center;
-      @media screen and (min-width: 1142px){
-        font-size: 60px;
-      }
-      margin-bottom: 50px;
-      margin-top: 61px;
-    }
-
-    #sub {
-      text-align: left;
-      @media screen and (min-width: 1142px){
-        font-size: 40px;
-      }
-      margin-top: 11px;
-      margin-bottom: 0px;
-    }
-
-    #description {
-      text-align: left;
-      @media screen and (min-width: 1142px){
-        font-size: 28px;
-        line-height: 37px;
-      }
-      margin-bottom: 75px;
+      font-size: 60px;
+      margin-bottom: 30px;
       margin-top: 0px;
     }
 
-  .namebox {
+    .sub {
+      text-align: left;
+      font-size: 40px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+
     .grid_wrapper {
       display: grid;
       grid-template-columns: 50% 50%;
       column-gap: 18px;
       row-gap: 20px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 0px;
+      margin-bottom: 40px;
       
-      .event-wrapper {
+      .ppl-wrapper {
         height: 220px;
         background-color: #B2E4F6;
         display: grid;
@@ -530,22 +530,21 @@ footer {
 
         .person_name {
           margin-left: 230px;
-          margin-top: 25px;
-          margin-bottom: 20px;
+          margin-top: 70px;
+          margin-bottom: 15px;
           font-size: 30px;
         }
 
         .standing {
           margin-left: 230px;
-          margin-top: 10px;
-          margin-bottom: 30px;
+          margin-top: 0px;
+          margin-bottom: 5px;
           font-size: 25px;
         }
         
         .personal_url {
           margin-left: 230px;
-          margin-top: 10px;
-          margin-bottom: 30px;
+          margin-top: 0px;
           font-size: 16px;
         }
       }
