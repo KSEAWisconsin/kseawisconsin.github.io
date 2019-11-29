@@ -308,26 +308,61 @@ footer {
   font-weight: 700;
 
   .title {
-    font-size: 60px;
-    margin-bottom: 15px;
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-top: 0px;
   }
 
   .page-information {
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 0px;
   }
 
   .post-contents {
-    margin-top: 30px;
-    font-size: 20px;
     font-weight: 600;
-
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 14px;
+  
     img {
       max-width: 100%;
       height: auto;
     }
   }
 
+  // for tablet website
+  @media screen and (min-width: 550px) {
+    .title {
+      font-size: 5.5vw;
+      margin-bottom: 15px;
+    }
+
+    .page-information {
+      font-size: 2.7vw;
+      margin-bottom: 10px;
+    }
+
+    .post-contents {
+      margin-top: 30px;
+      font-size: 2vw;
+    }
+  }
+
+  // for desktop website
+  @media screen and (min-width: 800px) {
+    .title {
+      font-size: 60px;
+    }
+  
+    .page-information {
+      font-size: 30px;
+    }
+  
+    .post-contents {
+      font-size: 20px;
+    }
+  }
 }
 
 .home {
