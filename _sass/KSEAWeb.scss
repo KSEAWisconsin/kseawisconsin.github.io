@@ -989,12 +989,20 @@ footer {
       margin-top: 0px;
       margin-bottom: 10px;
     }
+
+    #description {
+      margin-bottom: 10px;
+    }
     
     //for tablet website
     @media screen and (min-width: 550px) {  
       .sub {
         font-size: 4vw;
         margin-bottom: 10px;
+      }
+
+      #description {
+        margin-bottom: 30px;
       }
     }
 
@@ -1012,7 +1020,7 @@ footer {
       column-gap: 18px;
       row-gap: 10px;
       margin-top: 0px;
-      margin-bottom: 40px;
+      margin-bottom: 25px;
       
       .ppl-wrapper {
         height: 115px;
@@ -1054,6 +1062,7 @@ footer {
       .grid_wrapper {
         grid-template-columns: 100%;
         row-gap: 20px;
+        margin-bottom: 50px;
         
         .ppl-wrapper {
           height: 220px;
@@ -1090,6 +1099,7 @@ footer {
       .grid_wrapper {
         grid-template-columns: 50% 50%;
         row-gap: 20px;
+        margin-bottom: 50px;
 
         .ppl-wrapper {
           height: 220px;
