@@ -589,8 +589,44 @@ footer {
         border-radius: 13px;
       }
 
+      // for Tablet home upcomming_events
+      @media screen and (min-width: 550px) {
+        grid-template-columns: 100%;
+        row-gap: 20px;
+
+        .event-wrapper {
+          height: 244px;
+        }
+
+        .event_name {
+          margin-top: 20px;
+          margin-bottom: 30px;
+          font-size: 30px;
+        }
+
+        .detail {
+          margin-left: 20px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 24px;
+        }
+
+        .button-wrapper {
+          margin-bottom: 30px;
+          margin-top: 30px;
+        }
+
+        .round-button {
+          font-size: 20px;
+          line-height: 36px;
+          width: 218px;
+          height: 36px;
+          border-radius: 18px;
+        }
+      }
+
       // for desktop website
-      @media screen and (min-width: 800px) {
+      @media screen and (min-width: 1020px) {
         grid-template-columns: 50% 50%;
         column-gap: 18px;
         row-gap: 20px;
@@ -609,7 +645,7 @@ footer {
           margin-left: 20px;
           margin-top: 10px;
           margin-bottom: 10px;
-          font-size: 25px;
+          font-size: 23px;
         }
 
         .button-wrapper {
