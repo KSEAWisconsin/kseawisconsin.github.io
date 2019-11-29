@@ -362,20 +362,35 @@ footer {
   }
 
   .upcomming_events {
+    // for Mobile home upcomming_events
     #title {
-      
+      text-align: left;
+      font-size: 20px;
+      margin-bottom: 10px;
+      margin-top: 0px;
     }
 
     .grid_wrapper {
+      display: grid;
+      grid-template-columns: 100%;
+      row-gap: 5px;
 
       .event-wrapper {
+        height: 145px;
+        background-color: #B2E4F6;
 
         .event_name {
-
+          text-align: center;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 18px;
         }
 
         .detail {
-
+          margin-left: 10px;
+          margin-top: 0px;
+          margin-bottom: 2px;
+          font-size: 14px;
         }
       }
     }
