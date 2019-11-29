@@ -16,16 +16,16 @@ permalink: /events
           {% for item in site.data.events %}
             <div class = "event-wrapper"> 
                 <div>
-                    {% if item.event_name.size > 30 %}
-                    <p class = "event_name">{{ item.event_name | truncatewords: 27 }}</p>
+                    {% if item.event_name.size > 35 %}
+                    <p class = "event_name">{{ item.event_name | truncate: 32 }}</p>
                     {% else %}
                     <p class = "event_name">{{ item.event_name }}</p>
                     {% endif %}
 
                     <p class = "detail">Date: {{ item.date }}</p>
                     
-                    {% if item.location.size > 30 %}
-                    <p class = "detail">Location: {{ item.location | truncatewords: 27 }}</p>
+                    {% if item.location.size > 35 %}
+                    <p class = "detail">Location: {{ item.location | truncate: 32 }}</p>
                     {% else %}
                     <p class = "detail">Location: {{ item.location }}</p>
                     {% endif %}

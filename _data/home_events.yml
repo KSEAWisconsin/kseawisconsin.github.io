@@ -2,10 +2,10 @@
 # Maximum 6 Events allowed
 
 # Template
-## - event_name: # upto 30 character
+## - event_name: # upto 35 character
 ##   detail_url: # where detailed description located
 ##   date: # Mmm. DD. YYYY
-##   location: # upto 30 char
+##   location: # upto 35 char
 ##   additional_info1: # 1st line of additional information. 40 character per line
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
