@@ -12,28 +12,14 @@ permalink: /taskforce
     &nbsp &nbsp &nbsp &nbsp Chief Technology Officer of KSEA-Wisconsin, who roles as Project Manager for this project, certifies that people only listed below serviced for our project. If there is anyone who states that he or she contributed to this project, but not listed in this contributor's list (or on the Poor Performance list), he or she is falsely stating his/her achievement on resume/CV.
   </p>
   <div class = "namebox">
-    <p id = "leaders">OUR LEADERS</p>
-    <p class = "sub">Executive Officers</p>
+    <p class = "sub">GOLD Contributors</p>
+    <p id = "description">Someone who get more than 120 contribution points for this project. <br>
+        These people conduct significant role on this project, and the KSEA-Wisconsin Chapter honors their significant contribution.</p>
     <div class = "grid_wrapper">
-      {% for item in site.data.about_xo %}
+      {% for item in site.data.taskforce_GOLD %}
         <div class = "ppl-wrapper"> 
           <div>
-            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
-            <div class = "person_name">{{ item.person_name }}</div>
-            <div class = "standing">{{ item.standing }}</div>
-            {% if item.website_url %}
-              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
-            {% endif %}
-          </div>  
-        </div>
-      {% endfor %}
-    </div>
-    <p class = "sub">Directors Committee</p>
-    <div class = "grid_wrapper">
-      {% for item in site.data.about_directors %}
-        <div class = "ppl-wrapper"> 
-          <div>
-            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
             <div class = "person_name">{{ item.person_name }}</div>
             <div class = "standing">{{ item.standing }}</div>
             {% if item.website_url %}
@@ -44,12 +30,14 @@ permalink: /taskforce
       {% endfor %}
     </div>
 
-    <p class = "sub">YG (Young Generation) Chapter</p>
+    <p class = "sub">SILVER Contributors</p>
+    <p id = "description">Someone who get more than 70 contribution points for this project. <br>
+        These people conduct significant role on this project, and the KSEA-Wisconsin Chapter honors their significant contribution.
     <div class = "grid_wrapper">
-      {% for item in site.data.about_yg %}
+      {% for item in site.data.taskforce_SILVER %}
         <div class = "ppl-wrapper"> 
           <div>
-            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
             <div class = "person_name">{{ item.person_name }}</div>
             <div class = "standing">{{ item.standing }}</div>
             {% if item.website_url %}
@@ -60,12 +48,14 @@ permalink: /taskforce
       {% endfor %}
     </div>
 
-    <p class = "sub">Others</p>
+    <p class = "sub">BRONZE Contributors</p>
+    <p id = "description">Someone who get more than 40 contribution points for this project.<br>
+        These people conduct minimum role on this project, and the KSEA-Wisconsin Chapter certifies that they at least actively participated on the project.
     <div class = "grid_wrapper">
-      {% for item in site.data.about_others %}
+      {% for item in site.data.taskforce_BRONZE %}
         <div class = "ppl-wrapper"> 
           <div>
-            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+            <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
             <div class = "person_name">{{ item.person_name }}</div>
             <div class = "standing">{{ item.standing }}</div>
             {% if item.website_url %}
