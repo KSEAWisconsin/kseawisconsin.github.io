@@ -492,6 +492,7 @@ footer {
         font-size: 40px;
       }
       margin-top: 11px;
+      margin-bottom: 0px;
     }
 
     #description {
@@ -510,7 +511,7 @@ footer {
       display: grid;
       grid-template-columns: 50% 50%;
       column-gap: 18px;
-      row-gap: 22px;
+      row-gap: 20px;
       
       .event-wrapper {
         height: 220px;
@@ -518,31 +519,31 @@ footer {
         display: grid;
         
         .person_image {
+          position: absolute;
           width: 200px;
           border-radius: 100px;
           margin-left: 10px;
           margin-top: 10px;
-          position: absolute;
         }
 
         .person_name {
           margin-left: 230px;
-          margin-top: 64px;
-          text-align: left;
+          margin-top: 25px;
+          margin-bottom: 20px;
           font-size: 30px;
         }
 
         .standing {
           margin-left: 230px;
-          margin-top: 9px;
-          text-align: left;
+          margin-top: 10px;
+          margin-bottom: 30px;
           font-size: 25px;
         }
         
         .personal_url {
           margin-left: 230px;
-          margin-top: 2px;
-          text-align: left;
+          margin-top: 10px;
+          margin-bottom: 30px;
           font-size: 16px;
         }
       }
