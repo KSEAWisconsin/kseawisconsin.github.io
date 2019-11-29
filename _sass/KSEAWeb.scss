@@ -504,7 +504,6 @@ footer {
 }
 
 .news_and_events {
-  //for Desktop NEWS & EVENTS
   font-weight: 700;
 
   a {
@@ -515,41 +514,108 @@ footer {
   .greeting {
     text-align: center;
 
+    // for mobile website
     #title {
-      font-size: 5.5vw;
-      @media screen and (min-width: 1142px){
-        font-size: 60px;
-      }
-      margin-bottom: 30px;
+      font-size: 23px;
+      margin-bottom: 20px;
     }
 
     #description {
-      font-size: 2.5vw;
-      line-height: 3vw;
-      @media screen and (min-width: 1142px){
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 40px;
+      margin-top: 0px;
+    }
+
+    // for tablet website
+    @media screen and (min-width: 550px) {
+      #title {
+        font-size: 5.5vw;
+        margin-bottom: 30px;
+      }
+
+      #description {
+        font-size: 2.5vw;
+        line-height: 3vw;
+        margin-bottom: 40px;
+        margin-top: 0px;
+      }
+    }
+
+    // for desktop website
+    @media screen and (min-width: 800px) {
+      #title {
+        font-size: 60px;
+        margin-bottom: 30px;
+      }
+
+      #description {
         font-size: 28px;
         line-height: 35px;
+        margin-bottom: 40px;
+        margin-top: 0px;
       }
-      margin-bottom: 75px;
-      margin-top: 0px;
     }
   }
 
   .upcomming_events {
     .grid_wrapper {
       display: grid;
-      grid-template-columns: 50% 50%;
-      column-gap: 18px;
-      row-gap: 20px;
-      
+
+      // for mobile website
+      grid-template-columns: 100%;
+      row-gap: 5px;
+
       .event-wrapper {
-        height: 244px;
         background-color: #B2E4F6;
+        height: 136px;        
+      }
+
+      .event_name {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+      }
+
+      .detail {
+        text-align: left;
+        margin-left: 10px;
+        font-size: 14px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+
+      .button-wrapper {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+      }
+
+      .round-button {
+        text-align: center;
+        display: inline-block;
+        background-color: #ffffff;
+        color: #000000;
+        width: 168px;
+        height: 27px;
+        font-size: 12px;
+        line-height: 27px;
+        border-radius: 13px;
+      }
+
+      // for Tablet home upcomming_events
+      @media screen and (min-width: 550px) {
+        grid-template-columns: 100%;
+        row-gap: 20px;
+
+        .event-wrapper {
+          height: 244px;
+        }
 
         .event_name {
           margin-top: 20px;
           margin-bottom: 30px;
-          text-align: center;
           font-size: 30px;
         }
 
@@ -557,32 +623,59 @@ footer {
           margin-left: 20px;
           margin-top: 10px;
           margin-bottom: 10px;
-          font-size: 25px;
+          font-size: 24px;
         }
 
         .button-wrapper {
           margin-bottom: 30px;
           margin-top: 30px;
-          text-align: center;
         }
 
         .round-button {
-          text-align: center;
           font-size: 20px;
           line-height: 36px;
           width: 218px;
           height: 36px;
-          background-color: #ffffff;
           border-radius: 18px;
-          color: #000000;
-          display: inline-block;
         }
       }
-    }
 
-    #more_event {
-      text-align: center;
-      font-size: 30px;
+      // for desktop website
+      @media screen and (min-width: 1020px) {
+        grid-template-columns: 50% 50%;
+        column-gap: 18px;
+        row-gap: 20px;
+
+        .event-wrapper {
+          height: 244px;
+        }
+
+        .event_name {
+          margin-top: 20px;
+          margin-bottom: 30px;
+          font-size: 30px;
+        }
+
+        .detail {
+          margin-left: 20px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 23px;
+        }
+
+        .button-wrapper {
+          margin-bottom: 30px;
+          margin-top: 30px;
+        }
+
+        .round-button {
+          font-size: 20px;
+          line-height: 36px;
+          width: 218px;
+          height: 36px;
+          border-radius: 18px;
+        }
+      }
     }
   }
 }
