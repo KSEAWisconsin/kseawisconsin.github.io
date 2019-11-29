@@ -392,7 +392,7 @@ footer {
 
     #title {
       font-size: 23px;
-      @media screen and (min-width: 1142px){
+      @media screen and (min-width: 800px){
         font-size: 60px;
       }
       margin-bottom: 30px;
@@ -401,7 +401,7 @@ footer {
     #description {
       font-size: 16px;
       line-height: 20px;
-      @media screen and (min-width: 1142px){
+      @media screen and (min-width: 800px){
         font-size: 28px;
         line-height: 35px;
       }
@@ -413,7 +413,7 @@ footer {
   .upcomming_events {
     .grid_wrapper {
       display: grid;
-      grid-template-columns: 98.5%;
+      grid-template-columns: 100%;
       row-gap: 5px;
       @media screen and (min-width: 800px){
       grid-template-columns: 50% 50%;
