@@ -18,63 +18,103 @@ permalink: /about
     <p class = "sub">Executive Officers</p>
     <div class = "grid_wrapper">
       {% for item in site.data.about_xo %}
-        <div class = "ppl-wrapper"> 
-          <div>
-            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
-            <div class = "person_name">{{ item.person_name }}</div>
-            <div class = "standing">{{ item.standing }}</div>
-            {% if item.website_url %}
-              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
-            {% endif %}
-          </div>  
-        </div>
+        {% if item.website_url %}
+          <a href = "http://{{ item.website_url }}">
+            <div class = "ppl-wrapper"> 
+              <div>
+                <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+                <div class = "person_name">{{ item.person_name }}</div>
+                <div class = "standing">{{ item.standing }}</div>
+                <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+              </div>
+            </div>
+          </a>
+        {% else %}
+          <div class = "ppl-wrapper"> 
+            <div>
+              <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+              <div class = "person_name">{{ item.person_name }}</div>
+              <div class = "standing">{{ item.standing }}</div>
+            </div>
+          </div>
+        {% endif %}    
       {% endfor %}
     </div>
     <p class = "sub">Directors Committee</p>
     <div class = "grid_wrapper">
       {% for item in site.data.about_directors %}
-        <div class = "ppl-wrapper"> 
-          <div>
-            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
-            <div class = "person_name">{{ item.person_name }}</div>
-            <div class = "standing">{{ item.standing }}</div>
-            {% if item.website_url %}
-              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
-            {% endif %}
-          </div>  
-        </div>
+        {% if item.website_url %}
+          <a href = "http://{{ item.website_url }}">
+            <div class = "ppl-wrapper"> 
+              <div>
+                <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+                <div class = "person_name">{{ item.person_name }}</div>
+                <div class = "standing">{{ item.standing }}</div>
+                <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+              </div>
+            </div>
+          </a>
+        {% else %}
+          <div class = "ppl-wrapper"> 
+            <div>
+              <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+              <div class = "person_name">{{ item.person_name }}</div>
+              <div class = "standing">{{ item.standing }}</div>
+            </div>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
 
     <p class = "sub">YG (Young Generation) Chapter</p>
     <div class = "grid_wrapper">
       {% for item in site.data.about_yg %}
-        <div class = "ppl-wrapper"> 
-          <div>
-            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
-            <div class = "person_name">{{ item.person_name }}</div>
-            <div class = "standing">{{ item.standing }}</div>
-            {% if item.website_url %}
-              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
-            {% endif %}
-          </div>  
-        </div>
+        {% if item.website_url %}
+          <a href = "http://{{ item.website_url }}">
+            <div class = "ppl-wrapper"> 
+              <div>
+                <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+                <div class = "person_name">{{ item.person_name }}</div>
+                <div class = "standing">{{ item.standing }}</div>
+                <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+              </div>
+            </div>
+          </a>
+        {% else %}
+          <div class = "ppl-wrapper"> 
+            <div>
+              <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+              <div class = "person_name">{{ item.person_name }}</div>
+              <div class = "standing">{{ item.standing }}</div>
+            </div>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
 
     <p class = "sub">Others</p>
     <div class = "grid_wrapper">
       {% for item in site.data.about_others %}
-        <div class = "ppl-wrapper"> 
-          <div>
-            <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
-            <div class = "person_name">{{ item.person_name }}</div>
-            <div class = "standing">{{ item.standing }}</div>
-            {% if item.website_url %}
-              <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
-            {% endif %}
-          </div>  
-        </div>
+        {% if item.website_url %}
+          <a href = "http://{{ item.website_url }}">
+            <div class = "ppl-wrapper"> 
+              <div>
+                <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+                <div class = "person_name">{{ item.person_name }}</div>
+                <div class = "standing">{{ item.standing }}</div>
+                <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+              </div>
+            </div>
+          </a>
+        {% else %}
+          <div class = "ppl-wrapper"> 
+            <div>
+              <img class = "person_image" src = "{{ site.baseurl }}/assets/about_image{{ item.image_url }}">
+              <div class = "person_name">{{ item.person_name }}</div>
+              <div class = "standing">{{ item.standing }}</div>
+            </div>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

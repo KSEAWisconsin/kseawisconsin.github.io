@@ -17,16 +17,26 @@ permalink: /taskforce
       </p>
       <div class = "grid_wrapper">
         {% for item in site.data.taskforce_GOLD %}
-          <div class = "ppl-wrapper"> 
-            <div>
-              <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
-              <div class = "person_name">{{ item.person_name }}</div>
-              <div class = "standing">{{ item.standing }}</div>
-              {% if item.website_url %}
-                <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
-              {% endif %}
-            </div>  
-          </div>
+          {% if item.website_url %}
+            <a href = "http://{{ item.website_url }}">
+              <div class = "ppl-wrapper"> 
+                <div>
+                  <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
+                  <div class = "person_name">{{ item.person_name }}</div>
+                  <div class = "standing">{{ item.standing }}</div>
+                  <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+                </div>  
+              </div>
+            </a>
+          {% else %}
+            <div class = "ppl-wrapper"> 
+              <div>
+                <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
+                <div class = "person_name">{{ item.person_name }}</div>
+                <div class = "standing">{{ item.standing }}</div>
+              </div>
+            </div>
+          {% endif %}
         {% endfor %}
       </div>
     {% endif %}
@@ -38,16 +48,26 @@ permalink: /taskforce
       </p>
       <div class = "grid_wrapper">
         {% for item in site.data.taskforce_SILVER %}
-          <div class = "ppl-wrapper"> 
-            <div>
-              <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
-              <div class = "person_name">{{ item.person_name }}</div>
-              <div class = "standing">{{ item.standing }}</div>
-              {% if item.website_url %}
-                <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
-              {% endif %}
-            </div>  
-          </div>
+          {% if item.website_url %}
+            <a href = "http://{{ item.website_url }}">
+              <div class = "ppl-wrapper"> 
+                <div>
+                  <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
+                  <div class = "person_name">{{ item.person_name }}</div>
+                  <div class = "standing">{{ item.standing }}</div>
+                  <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+                </div>  
+              </div>
+            </a>
+          {% else %}
+            <div class = "ppl-wrapper"> 
+              <div>
+                <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
+                <div class = "person_name">{{ item.person_name }}</div>
+                <div class = "standing">{{ item.standing }}</div>
+              </div>
+            </div>
+          {% endif %}
         {% endfor %}
       </div>
     {% endif %}
@@ -58,17 +78,27 @@ permalink: /taskforce
         These people conduct minimum role on this project, and the KSEA-Wisconsin Chapter certifies that they at least actively participated on the project.
       </p>
       <div class = "grid_wrapper">
-        {% for item in site.data.taskforce_BRONZE %}
-          <div class = "ppl-wrapper"> 
-            <div>
-              <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
-              <div class = "person_name">{{ item.person_name }}</div>
-              <div class = "standing">{{ item.standing }}</div>
-                {% if item.website_url %}
-                <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
-                {% endif %}
-            </div>  
-          </div>
+          {% for item in site.data.taskforce_BRONZE %}
+          {% if item.website_url %}
+            <a href = "http://{{ item.website_url }}">
+              <div class = "ppl-wrapper"> 
+                <div>
+                  <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
+                  <div class = "person_name">{{ item.person_name }}</div>
+                  <div class = "standing">{{ item.standing }}</div>
+                  <div class = "personal_url">Personal Website: {{ item.website_url }}</div>
+                </div>  
+              </div>
+            </a>
+          {% else %}
+            <div class = "ppl-wrapper"> 
+              <div>
+                <img class = "person_image" src = "{{ site.baseurl }}/assets/taskforce_image{{ item.image_url }}">
+                <div class = "person_name">{{ item.person_name }}</div>
+                <div class = "standing">{{ item.standing }}</div>
+              </div>
+            </div>
+          {% endif %}
         {% endfor %}
       </div>
     {% endif %}
