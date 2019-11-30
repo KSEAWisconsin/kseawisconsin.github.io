@@ -6,6 +6,7 @@ function get_browser() {
       }   
   if(M[1]==='Chrome'){
       tem=ua.match(/\bOPR|Edge\/(\d+)/)
+      if(tem[0].indexOf('Edge') != -1) { return{name:'Edge', version:tem[1]};}
       if(tem!=null)   {return {name:'Opera', version:tem[1]};}
     }   
   M=M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
