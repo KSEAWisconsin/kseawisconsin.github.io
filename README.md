@@ -6,6 +6,16 @@ Working space for implementing the site for Website rebuilding project of Korean
  - This repository only contains codes for website.
  - For all notifications and rules, please refer to the [README of KSEAWebDocuments](https://github.com/hyecheol123/KSEAWebDocuments/blob/master/README.md).
 
+## Editting contents
+By changing contents of _data and _posts, almost all contents on this website can be modified.
+
+### _data
+This folder containing event's list of main page (`home_events.yml`), event list on event page (`events.yml`), list of leaders on about page (`about_*.yml`), and list of website development contributors (`taskforce_*.yml`).  
+When you open each file, by comment, the description and direction is written.
+
+### _posts
+This folder is the place to write down description for each event. Using markdown syntax, user can implement a separated page for each events.
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
