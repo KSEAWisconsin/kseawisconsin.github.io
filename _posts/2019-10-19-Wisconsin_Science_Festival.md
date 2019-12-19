@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Event Name"
-location: "Event Location"
-timestamp: "Nov. 29. 2019. 14:00"
+title: "Wisconsin Science Festival"
+location: "Wisconsin Institute for Discovery"
+timestamp: "Oct. 19. 2019 (Sat)"
 author: "Hyecheol (Jerry) Jang"
 ---
 
