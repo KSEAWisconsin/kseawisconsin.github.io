@@ -10,50 +10,122 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
-- event_name: Monthly Bowling Nightlllllllllllllllll
-  detail_url: /2019/11/29/event_name
-  date: Oct. 20. 2019
+- event_name: Monthly Bowling Night
+  detail_url: 
+  date: Jan. 28. 2020
   location: Middleton Sports Center
-  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
-  additional_info2: aa 
-  additional_info3: bb
+  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
+  additional_info2: "Total of $6 including 2 Games and Shoes"
+  additional_info3: 
+
+- event_name: Ice Skating
+  detail_url: 
+  date: Feb. 01. 2020
+  location: Madison Ice Inc.
+  additional_info1: "Admission Fee: $4"
+  additional_info2: "RSVP By Jan. 29"
+  additional_info3: "Co-Organized with KSSA"
 
 - event_name: Monthly Bowling Night
-  detail_url: /2019/11/29/event_name
-  date: Oct. 20. 2019
+  detail_url: 
+  date: Feb. 25. 2020
   location: Middleton Sports Center
-  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
-  additional_info2:
-  additional_info3:
+  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
+  additional_info2: "Total of $6 including 2 Games and Shoes"
+  additional_info3: 
+
+- event_name: Resume & CV Session (YG)
+  detail_url: 
+  date: TBD (Early of March)
+  location: Humanities Building (YG Event)
+  additional_info1: 
+  additional_info2: 
+  additional_info3: 
+
+- event_name: Laser Tag
+  detail_url: 
+  date: TBD (Mid of March)
+  location: Madison Ice Inc.
+  additional_info1: "Admission Fee: $4"
+  additional_info2: "RSVP By Jan. 29"
+  additional_info3: "Co-Organized with KSSA"
 
 - event_name: Monthly Bowling Night
-  detail_url: /2019/11/29/event_name
-  date: Oct. 20. 2019
+  detail_url: 
+  date: TBD (End of March)
   location: Middleton Sports Center
-  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
+  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
+  additional_info2: "Total of $6 including 2 Games and Shoes"
+  additional_info3: 
+
+- event_name: New Glarus Tour
+  detail_url: 
+  date: TBD (March)
+  location: New Glarus Brewing Company
+  additional_info1: 
+  additional_info2: 
+  additional_info3: 
+
+- event_name: Movie Night
+  detail_url: 
+  date: TBD (March)
+  location: TBD
+  additional_info1: "Movie: Mulan"
+  additional_info2: 
+  additional_info3: 
+
+- event_name: Midwest Regional Conference
+  detail_url: 
+  date: Apr. 04. 2020
+  location: Northwestern University
+  additional_info1: "Academic Conference"
+  additional_info2: "Co-Organized with Midwest KSEA Chapters"
+  additional_info3: 
+
+- event_name: Mock Interview Session (YG)
+  detail_url: 
+  date: Apr. 10. 2020
+  location: Humanities Building (YG Event)
+  additional_info1:
   additional_info2:
-  additional_info3:
+  additional_info3: 
+
+- event_name: National Math & Science Competition
+  detail_url: 
+  date: Apr. 18. 2020
+  location: TBD
+  additional_info1:
+  additional_info2:
+  additional_info3: 
 
 - event_name: Monthly Bowling Night
-  detail_url: /2019/11/29/event_name
-  date: Oct. 20. 2019
+  detail_url: 
+  date: Apr. 28. 2020
   location: Middleton Sports Center
-  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
-  additional_info2:
-  additional_info3:
+  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
+  additional_info2: "Total of $6 including 2 Games and Shoes"
+  additional_info3: 
+
+- event_name: New Glarus Tour
+  detail_url: 
+  date: TBD (Mid of May)
+  location: New Glarus Brewing Company
+  additional_info1: 
+  additional_info2: 
+  additional_info3: 
 
 - event_name: Monthly Bowling Night
-  detail_url: /2019/11/29/event_name
-  date: Oct. 20. 2019
+  detail_url: 
+  date: May. 26. 2020
   location: Middleton Sports Center
-  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
-  additional_info2:
-  additional_info3:
+  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
+  additional_info2: "Total of $6 including 2 Games and Shoes"
+  additional_info3: 
 
 - event_name: Monthly Bowling Night
-  detail_url: /2019/11/29/event_name
-  date: Oct. 20. 2019
+  detail_url: 
+  date: Jun. 30. 2020
   location: Middleton Sports Center
-  additional_info1: "Admission Fee: $1 / Game, $1 for Shoes"
-  additional_info2:
-  additional_info3:
+  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
+  additional_info2: "Total of $6 including 2 Games and Shoes"
+  additional_info3: 
