@@ -2,12 +2,11 @@
 
 Working space for implementing the site for Website rebuilding project of Korean-American Scientists and Engineers Association - Wisconsin Chapter
 
- - The documentation for this repository is maintained on a [separated repository, KSEAWebDocuments](https://github.com/hyecheol123/KSEAWebDocuments).
- - This repository only contains codes for website.
+ - The temporal documentation while implementing codes for this repository is maintained on a [separated repository, KSEAWebDocuments](https://github.com/hyecheol123/KSEAWebDocuments).
  - For all notifications and rules, please refer to the [README of KSEAWebDocuments](https://github.com/hyecheol123/KSEAWebDocuments/blob/master/README.md).
 
 ## Editting contents
-By changing contents of _data and _posts, almost all contents on this website can be modified.
+By changing contents of _data and _posts, almost all **contents** on this website can be modified.
 
 ### _data
 This folder containing event's list of main page (`home_events.yml`), event list on event page (`events.yml`), list of leaders on about page (`about_*.yml`), and list of website development contributors (`taskforce_*.yml`).  
