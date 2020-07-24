@@ -50,30 +50,6 @@
   additional_info2: "RSVP By Jan. 29"
   additional_info3: "Co-Organized with KSSA"
 
-- event_name: Monthly Bowling Night
-  detail_url: 
-  date: TBD (End of March)
-  location: Middleton Sports Center
-  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
-  additional_info2: "Total of $6 including 2 Games and Shoes"
-  additional_info3: 
-
-- event_name: New Glarus Tour
-  detail_url: 
-  date: TBD (March)
-  location: New Glarus Brewing Company
-  additional_info1: 
-  additional_info2: 
-  additional_info3: 
-
-- event_name: Movie Night
-  detail_url: 
-  date: TBD (March)
-  location: TBD
-  additional_info1: "Movie: Mulan"
-  additional_info2: 
-  additional_info3: 
-
 - event_name: Midwest Regional Conference
   detail_url: 
   date: Apr. 04. 2020
@@ -90,41 +66,9 @@
   additional_info2:
   additional_info3: 
 
-- event_name: National Math & Science Competition
-  detail_url: 
-  date: Apr. 18. 2020
-  location: TBD
-  additional_info1:
-  additional_info2:
-  additional_info3: 
-
 - event_name: Monthly Bowling Night
   detail_url: 
   date: Apr. 28. 2020
-  location: Middleton Sports Center
-  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
-  additional_info2: "Total of $6 including 2 Games and Shoes"
-  additional_info3: 
-
-- event_name: New Glarus Tour
-  detail_url: 
-  date: TBD (Mid of May)
-  location: New Glarus Brewing Company
-  additional_info1: 
-  additional_info2: 
-  additional_info3: 
-
-- event_name: Monthly Bowling Night
-  detail_url: 
-  date: May. 26. 2020
-  location: Middleton Sports Center
-  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
-  additional_info2: "Total of $6 including 2 Games and Shoes"
-  additional_info3: 
-
-- event_name: Monthly Bowling Night
-  detail_url: 
-  date: Jun. 30. 2020
   location: Middleton Sports Center
   additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
   additional_info2: "Total of $6 including 2 Games and Shoes"

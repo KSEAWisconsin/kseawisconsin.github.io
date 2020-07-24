@@ -6,18 +6,23 @@
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 35 char
 
+- event_name: "KSEA:KSSA Ice Skating"
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2750375015008178/
+  date: Feb. 01. 2020 (Sat)
+  location: Madison Ice Inc.
+
 - event_name: "Wisconsin Science Festival"
-  detail_url: /2019/10/19/Wisconsin_Science_Festival
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2534617426583939/
   date: Oct. 19. 2019 (Sat)
   location: Wisconsin Institute for Discovery
 
 - event_name: KSEA Early Halloween Event
-  detail_url: /2019/10/12/Early_Halloween_Event
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2520235071355508/
   date: Oct. 12. 2019 (Sat)
   location: Schuster's Farm
 
 - event_name: 2019 Fall Membership Drive
-  detail_url: /2019/09/07/Membership_Drive
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2427437750635241/
   date: Sep. 7. 2019 (Sat)
   location: Memorial Union Tripp Commons
 
@@ -27,31 +32,31 @@
   location: Gordon's Symphonoy Room
 
 - event_name: "2019 National Math & Sci Competition"
-  detail_url: /2019/04/13/NMSC
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2233682490010769/
   date: "Apr. 13. 2019 (Sat) 12:45 PM - 3:30 PM"
   location: Union South
 
 - event_name: Dr. Yu's Seminar
-  detail_url: /2019/04/12/Dr_Yu_Seminar
+  detail_url: https://www.facebook.com/KSEAWiscYG/posts/2325729084313847
   date: "Apr. 12. 2019 (Fri) 6:00 PM"
   location: Union South
 
 - event_name: Wisconsin Science Expeditions
-  detail_url: /2019/04/06/Wisconsin_Science_Expeditions
+  detail_url: 
   date: Apr. 06. 2019 (Sat)
   location: Wisconsin Institute for Discovery
 
 - event_name: JBC Coffee Tour
-  detail_url: /2019/03/30/JBC_Coffee_Tour
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2192204340825251/
   date: Mar. 30. 2019 (Sat)
   location: JBC Coffee Roasters
 
 - event_name: KSEA Wisconsin Symposium
-  detail_url: /2018/11/03/KSEA_Wisconsin_Symposium
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/1996866640359023/
   date: Nov. 03. 2018 (Sat)
   location: Memorial Union
 
 - event_name: Wisconsin Science Festival
-  detail_url: /2018/10/18/Wisconsin_Science_Festival
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/1958807717498249/
   date: Oct. 18. 2018 (Sat)
   location: Wisconsin Institute for Discovery
