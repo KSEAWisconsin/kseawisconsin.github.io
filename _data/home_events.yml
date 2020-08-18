@@ -10,13 +10,14 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
+
 - event_name: Monthly Bowling Night
   detail_url: 
   date: Jan. 28. 2020
   location: Middleton Sports Center
   additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
-  additional_info2: "Total of $6 including 2 Games and Shoes"
-  additional_info3: 
+  additional_info2: "Total of $6 including 2 Games and Shoes " 
+  additional_info3: "includiand Shoes "
 
 - event_name: Ice Skating
   detail_url: 
@@ -25,6 +26,8 @@
   additional_info1: "Admission Fee: $4"
   additional_info2: "RSVP By Jan. 29"
   additional_info3: "Co-Organized with KSSA"
+
+
 
 - event_name: Monthly Bowling Night
   detail_url: 
