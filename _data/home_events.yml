@@ -17,7 +17,7 @@
   location: Middleton Sports Center
   additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
   additional_info2: "Total of $6 including 2 Games and Shoes " 
-  additional_info3: "includiand Shoes "
+  additional_info3: 
 
 - event_name: Ice Skating
   detail_url: 
