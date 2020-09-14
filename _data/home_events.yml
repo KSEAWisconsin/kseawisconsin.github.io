@@ -10,6 +10,13 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
+ - event_name: KSEA Webinar Series
+   detail_url: 
+   date: Sep. 14. 2020
+   location: 
+   additional_info1: "Held via webex link in invitation email"
+   additional_info2: "Speaker: Kangwook Lee, Ph. D."
+   additional_info3: 
 
 - event_name: Monthly Bowling Night
   detail_url: 
