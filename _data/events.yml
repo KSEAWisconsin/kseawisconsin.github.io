@@ -6,7 +6,7 @@
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 35 char
 
-- event_name: KSEA Webinar Series
+- event_name: "KSEA Webinar Series"
   detail_url: https://www.facebook.com/groups/kseawisc/permalink/3273905722655102/
   date: Sep. 14. 2020 (Mon)
   location: WebEx link in the invitation email
