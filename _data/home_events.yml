@@ -13,9 +13,9 @@
  - event_name: KSEA Webinar Series
    detail_url: 
    date: Sep. 14. 2020
-   location: 
-   additional_info1: "Held via webex link in invitation email"
-   additional_info2: "Speaker: Kangwook Lee, Ph. D."
+   location: Webex link in invitation email
+   additional_info1: "Speaker: Kangwook Lee, Ph. D."
+   additional_info2: 
    additional_info3: 
 
 - event_name: Monthly Bowling Night
