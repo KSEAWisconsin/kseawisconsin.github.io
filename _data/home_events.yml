@@ -10,6 +10,7 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
+
 - event_name: UKC 2020 Virtual 
   detail_url: 
   date: Dec. 14-17. 2020
@@ -17,7 +18,6 @@
   additional_info1: "Application Deadline: Oct 5, 2020"
   additional_info2: "Fee: Free with KSEA Membership"
   additional_info3: "Cash Awards to the Best Presenters"
-
 
 - event_name: Monthly Game Night
   detail_url: 
