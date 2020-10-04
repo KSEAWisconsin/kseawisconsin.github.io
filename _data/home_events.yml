@@ -10,6 +10,21 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
+- event_name: Monthly Game Night 
+  detail_url: 
+  date: Oct. 31. 2020
+  location: https://papergames.io/en/gomoku 
+  additional_info1: Every Last Saturday of Month 8 pm
+  additional_info2: "Prize: 1st $25, 2nd $10"
+  additional_info3: "Prize Is Doubled with KSEA Membership"
+
+- event_name: KSEA Webinar Series 
+  detail_url: 
+  date: Oct. 15. 2020
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Eunsil Oh, Ph. D."
+  additional_info2: "Major: Sociology"
+  additional_info3:
 
 - event_name: UKC 2020 Virtual 
   detail_url: 
@@ -25,14 +40,14 @@
   location: https://jstris.jezevec10.com
   additional_info1: Saturday 8 pm
   additional_info2: "Prize: 1st $25, 2nd $10"
-  additional_info3: "Prize is doubled with KSEA membership"
+  additional_info3: "Prize Is Doubled with KSEA Membership"
 
 - event_name: KSEA Webinar Series 
   detail_url: 
   date: Sep. 14. 2020
-  location: WebEx link in the invitation email
+  location: WebEx Link in The Invitation Email
   additional_info1: "Speaker: Kangwook Lee, Ph. D."
-  additional_info2: 
+  additional_info2: "Major: Electrical and Computer Engineering"
   additional_info3: 
 
 
