@@ -10,6 +10,46 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
+- event_name: UKC 2020 Virtual 
+  detail_url: 
+  date: Dec. 14-17. 2020
+  location: "Via Online Platform (TBA)"
+  additional_info1: "Application Deadline: Oct 5, 2020"
+  additional_info2: "Fee: Free with KSEA Membership"
+  additional_info3: "Cash Awards to the Best Presenters"
+
+- event_name: National Math Competition
+  detail_url: 
+  date: Dec. 05. 2020
+  location: Northwestern University
+  additional_info1: "Online Registration: Oct.20-Nov.20"
+  additional_info2: "Orientation on Nov. 2"
+  additional_info3: "11 AM PST 2PM EDT"
+
+- event_name: Monthly Game Night 
+  detail_url: 
+  date: Nov. 28. 2020
+  location: TBA 
+  additional_info1: Every Last Saturday of Month 8 pm
+  additional_info2: "Prize: 1st $25, 2nd $10"
+  additional_info3: "Prize Is Doubled with KSEA Membership"
+
+- event_name: KSEA Webinar Series
+  detail_url: 
+  date: Nov. 2020
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Seungwon Chung"
+  additional_info2: "Major: Organic Chemistry"
+  additional_info3: "Affiliation: Abbvie"
+
+- event_name: KSEA Webinar Series
+  detail_url: 
+  date: Nov. 4. 2020
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Kevin Kim"
+  additional_info2: "Electrical Design and Integration"
+  additional_info3: "Thermo Fisher"
+
 - event_name: Monthly Game Night 
   detail_url: 
   date: Oct. 31. 2020
@@ -25,14 +65,6 @@
   additional_info1: "Speaker: Eunsil Oh, Ph. D."
   additional_info2: "Major: Sociology"
   additional_info3:
-
-- event_name: UKC 2020 Virtual 
-  detail_url: 
-  date: Dec. 14-17. 2020
-  location: "Via Online Platform (TBA)"
-  additional_info1: "Application Deadline: Oct 5, 2020"
-  additional_info2: "Fee: Free with KSEA Membership"
-  additional_info3: "Cash Awards to the Best Presenters"
 
 - event_name: Monthly Game Night
   detail_url: 
@@ -51,66 +83,66 @@
   additional_info3: 
 
 
-- event_name: Monthly Bowling Night
-  detail_url: 
-  date: Jan. 28. 2020
-  location: Middleton Sports Center
-  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
-  additional_info2: "Total of $6 including 2 Games and Shoes " 
-  additional_info3: 
+- ##event_name: Monthly Bowling Night
+  ##detail_url: 
+  ##date: Jan. 28. 2020
+  ##location: Middleton Sports Center
+  ##additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
+  ##additional_info2: "Total of $6 including 2 Games and Shoes " 
+  ##additional_info3: 
 
-- event_name: Ice Skating
-  detail_url: 
-  date: Feb. 01. 2020
-  location: Madison Ice Inc.
-  additional_info1: "Admission Fee: $4"
-  additional_info2: "RSVP By Jan. 29"
-  additional_info3: "Co-Organized with KSSA"
+- ##event_name: Ice Skating
+  ##detail_url: 
+  ##date: Feb. 01. 2020
+  ##location: Madison Ice Inc.
+  ##additional_info1: "Admission Fee: $4"
+  ##additional_info2: "RSVP By Jan. 29"
+  ##additional_info3: "Co-Organized with KSSA"
 
-- event_name: Monthly Bowling Night
-  detail_url: 
-  date: Feb. 25. 2020
-  location: Middleton Sports Center
-  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
-  additional_info2: "Total of $6 including 2 Games and Shoes"
-  additional_info3: 
+- ##event_name: Monthly Bowling Night
+  ##detail_url: 
+  ##date: Feb. 25. 2020
+  ##location: Middleton Sports Center
+  ##additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
+  ##additional_info2: "Total of $6 including 2 Games and Shoes"
+  ##additional_info3: 
 
-- event_name: Resume & CV Session (YG)
-  detail_url: 
-  date: TBD (Early of March)
-  location: Humanities Building (YG Event)
-  additional_info1: 
-  additional_info2: 
-  additional_info3: 
+- ##event_name: Resume & CV Session (YG)
+  ##detail_url: 
+  ##date: TBD (Early of March)
+  ##location: Humanities Building (YG Event)
+  ##additional_info1: 
+  ##additional_info2: 
+  ##additional_info3: 
 
-- event_name: Laser Tag
-  detail_url: 
-  date: TBD (Mid of March)
-  location: Madison Ice Inc.
-  additional_info1: "Admission Fee: $4"
-  additional_info2: "RSVP By Jan. 29"
-  additional_info3: "Co-Organized with KSSA"
+- ##event_name: Laser Tag
+  ##detail_url: 
+  ##date: TBD (Mid of March)
+  ##location: Madison Ice Inc.
+  ##additional_info1: "Admission Fee: $4"
+  ##additional_info2: "RSVP By Jan. 29"
+  ##additional_info3: "Co-Organized with KSSA"
 
-- event_name: Midwest Regional Conference
-  detail_url: 
-  date: Apr. 04. 2020
-  location: Northwestern University
-  additional_info1: "Academic Conference"
-  additional_info2: "Co-Organized with Midwest KSEA Chapters"
-  additional_info3: 
+- ##event_name: Midwest Regional Conference
+  ##detail_url: 
+  ##date: Apr. 04. 2020
+  ##location: Northwestern University
+  ##additional_info1: "Academic Conference"
+  ##additional_info2: "Co-Organized with Midwest KSEA Chapters"
+  ##additional_info3: 
 
-- event_name: Mock Interview Session (YG)
-  detail_url: 
-  date: Apr. 10. 2020
-  location: Humanities Building (YG Event)
-  additional_info1:
-  additional_info2:
-  additional_info3: 
+##- event_name: Mock Interview Session (YG)
+##  detail_url: 
+##  date: Apr. 10. 2020
+##  location: Humanities Building (YG Event)
+##  additional_info1:
+##  additional_info2:
+##  additional_info3: 
 
-- event_name: Monthly Bowling Night
-  detail_url: 
-  date: Apr. 28. 2020
-  location: Middleton Sports Center
-  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
-  additional_info2: "Total of $6 including 2 Games and Shoes"
-  additional_info3: 
+##- event_name: Monthly Bowling Night
+##  detail_url: 
+##  date: Apr. 28. 2020
+##  location: Middleton Sports Center
+##  additional_info1: "Admission Fee: $2 / Game, $2 for Shoes"
+##  additional_info2: "Total of $6 including 2 Games and Shoes"
+##  additional_info3: 

@@ -7,6 +7,16 @@
 ##   location: # upto 35 char
 
 - event_name: "KSEA Webinar Series"
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3369809003064773/
+  date: Oct. 15. 2020 (Thu)
+  location: WebEx link in the invitation email
+
+- event_name: "Monthly Game Night"
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3343618459017161/
+  date: Sep. 26. 2020 (Sat)
+  location: https://jstris.jezevec10.com
+
+- event_name: "KSEA Webinar Series"
   detail_url: https://www.facebook.com/groups/kseawisc/permalink/3273905722655102/
   date: Sep. 14. 2020 (Mon)
   location: WebEx link in the invitation email
