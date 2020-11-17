@@ -12,39 +12,39 @@
 
 - event_name: UKC 2020 Virtual 
   detail_url: 
-  date: Dec. 14-17. 2020
+  date: Dec. 14-17, 2020
   location: "Via Online Platform (TBA)"
-  additional_info1: "Application Deadline: Oct 5, 2020"
+  additional_info1: "Registration Deadline: Dec. 7, 2020"
   additional_info2: "Fee: Free with KSEA Membership"
-  additional_info3: "Cash Awards to the Best Presenters"
+  additional_info3: "More Info: https://ukc.ksea.org/ukc2020"
 
-- event_name: National Math Competition
+- event_name: National Math and Science Competition
   detail_url: 
-  date: Dec. 05. 2020
-  location: Northwestern University
-  additional_info1: "Online Registration: Oct.20-Nov.20"
-  additional_info2: "Orientation on Nov. 2"
-  additional_info3: "11 AM PST 2PM EDT"
+  date: Dec. 05, 2020
+  location: Zoom Meeting Link in the Poster
+  additional_info1: "Online Registration by Nov.30"
+  additional_info2: "1 PM CST"
+  additional_info3: "Registration Fee: $10"
 
 - event_name: Monthly Game Night 
   detail_url: 
-  date: Nov. 28. 2020
-  location: TBA 
-  additional_info1: Every Last Saturday of Month 8 pm
+  date: Nov. 21, 2020
+  location: "https://tinyurl.com/kseakrrp"
+  additional_info1: Saturday Before Thanksgiving Week 8pm
   additional_info2: "Prize: 1st $25, 2nd $10"
   additional_info3: "Prize Is Doubled with KSEA Membership"
 
 - event_name: KSEA Webinar Series
   detail_url: 
-  date: Nov. 2020
+  date: Nov. 18, 2020
   location: WebEx Link in The Invitation Email
   additional_info1: "Speaker: Seungwon Chung"
-  additional_info2: "Major: Organic Chemistry"
-  additional_info3: "Affiliation: Abbvie"
+  additional_info2: "Affiliation: AbbVie"
+  additional_info3: "5:00-5:30 PM (Q&A Included)"
 
 - event_name: KSEA Webinar Series
   detail_url: 
-  date: Nov. 4. 2020
+  date: Nov. 4, 2020
   location: WebEx Link in The Invitation Email
   additional_info1: "Speaker: Kevin Kim"
   additional_info2: "Electrical Design and Integration"
@@ -52,7 +52,7 @@
 
 - event_name: Monthly Game Night 
   detail_url: 
-  date: Oct. 31. 2020
+  date: Oct. 31, 2020
   location: https://papergames.io/en/gomoku 
   additional_info1: Every Last Saturday of Month 8 pm
   additional_info2: "Prize: 1st $25, 2nd $10"
@@ -60,7 +60,7 @@
 
 - event_name: KSEA Webinar Series 
   detail_url: 
-  date: Oct. 15. 2020
+  date: Oct. 15, 2020
   location: WebEx Link in The Invitation Email
   additional_info1: "Speaker: Eunsil Oh, Ph. D."
   additional_info2: "Major: Sociology"
@@ -68,7 +68,7 @@
 
 - event_name: Monthly Game Night
   detail_url: 
-  date: Sep. 26. 2020
+  date: Sep. 26, 2020
   location: https://jstris.jezevec10.com
   additional_info1: Saturday 8 pm
   additional_info2: "Prize: 1st $25, 2nd $10"
@@ -76,7 +76,7 @@
 
 - event_name: KSEA Webinar Series 
   detail_url: 
-  date: Sep. 14. 2020
+  date: Sep. 14, 2020
   location: WebEx Link in The Invitation Email
   additional_info1: "Speaker: Kangwook Lee, Ph. D."
   additional_info2: "Major: Electrical and Computer Engineering"
