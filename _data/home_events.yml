@@ -10,21 +10,13 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
-- event_name: UKC 2020 Virtual 
+- event_name: KSEA Webinar Series
   detail_url: 
-  date: Dec. 14-17, 2020
-  location: "Via Online Platform (TBA)"
-  additional_info1: "Registration Deadline: Dec. 7, 2020"
-  additional_info2: "Fee: Free with KSEA Membership"
-  additional_info3: "More Info: https://ukc.ksea.org/ukc2020"
-
-- event_name: NMSC
-  detail_url: 
-  date: Dec. 05, 2020
-  location: Zoom Meeting Link in the Poster
-  additional_info1: "Online Registration by Nov.30"
-  additional_info2: "1 PM CST"
-  additional_info3: "Registration Fee: $10"
+  date: Nov. 18, 2020
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Seungwon Chung"
+  additional_info2: "Affiliation: AbbVie"
+  additional_info3: "5:00-5:30 PM (Q&A Included)"
 
 - event_name: Monthly Game Night 
   detail_url: 
@@ -34,53 +26,63 @@
   additional_info2: "Prize: 1st $25, 2nd $10"
   additional_info3: "Prize Is Doubled with KSEA Membership"
 
-- event_name: KSEA Webinar Series
+- event_name: NMSC
   detail_url: 
-  date: Nov. 18, 2020
-  location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: Seungwon Chung"
-  additional_info2: "Affiliation: AbbVie"
-  additional_info3: "5:00-5:30 PM (Q&A Included)"
+  date: Dec. 05, 2020
+  location: Zoom Meeting Link in the Poster
+  additional_info1: "Online Registration by Nov.30"
+  additional_info2: "1 PM CST"
+  additional_info3: "Registration Fee: $10"
 
-- event_name: KSEA Webinar Series
-  detail_url: 
-  date: Nov. 4, 2020
-  location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: Kevin Kim"
-  additional_info2: "Electrical Design and Integration"
-  additional_info3: "Thermo Fisher"
 
-- event_name: Monthly Game Night 
+- event_name: UKC 2020 Virtual 
   detail_url: 
-  date: Oct. 31, 2020
-  location: https://papergames.io/en/gomoku 
-  additional_info1: Every Last Saturday of Month 8 pm
-  additional_info2: "Prize: 1st $25, 2nd $10"
-  additional_info3: "Prize Is Doubled with KSEA Membership"
+  date: Dec. 14-17, 2020
+  location: "Via Online Platform (TBA)"
+  additional_info1: "Registration Deadline: Dec. 7, 2020"
+  additional_info2: "Fee: Free with KSEA Membership"
+  additional_info3: "More Info: https://ukc.ksea.org/ukc2020"
 
-- event_name: KSEA Webinar Series 
-  detail_url: 
-  date: Oct. 15, 2020
-  location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: Eunsil Oh, Ph. D."
-  additional_info2: "Major: Sociology"
-  additional_info3:
 
-- event_name: Monthly Game Night
-  detail_url: 
-  date: Sep. 26, 2020
-  location: https://jstris.jezevec10.com
-  additional_info1: Saturday 8 pm
-  additional_info2: "Prize: 1st $25, 2nd $10"
-  additional_info3: "Prize Is Doubled with KSEA Membership"
+# - event_name: KSEA Webinar Series
+#   detail_url: 
+#   date: Nov. 4, 2020
+#   location: WebEx Link in The Invitation Email
+#   additional_info1: "Speaker: Kevin Kim"
+#   additional_info2: "Electrical Design and Integration"
+#   additional_info3: "Thermo Fisher"
 
-- event_name: KSEA Webinar Series 
-  detail_url: 
-  date: Sep. 14, 2020
-  location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: Kangwook Lee, Ph. D."
-  additional_info2: "Major: Electrical and Computer Engineering"
-  additional_info3: 
+# - event_name: Monthly Game Night 
+#   detail_url: 
+#   date: Oct. 31, 2020
+#   location: https://papergames.io/en/gomoku 
+#   additional_info1: Every Last Saturday of Month 8 pm
+#   additional_info2: "Prize: 1st $25, 2nd $10"
+#   additional_info3: "Prize Is Doubled with KSEA Membership"
+
+# - event_name: KSEA Webinar Series 
+#   detail_url: 
+#   date: Oct. 15, 2020
+#   location: WebEx Link in The Invitation Email
+#   additional_info1: "Speaker: Eunsil Oh, Ph. D."
+#   additional_info2: "Major: Sociology"
+#   additional_info3:
+
+# - event_name: Monthly Game Night
+#   detail_url: 
+#   date: Sep. 26, 2020
+#   location: https://jstris.jezevec10.com
+#   additional_info1: Saturday 8 pm
+#   additional_info2: "Prize: 1st $25, 2nd $10"
+#   additional_info3: "Prize Is Doubled with KSEA Membership"
+
+# - event_name: KSEA Webinar Series 
+#   detail_url: 
+#   date: Sep. 14, 2020
+#   location: WebEx Link in The Invitation Email
+#   additional_info1: "Speaker: Kangwook Lee, Ph. D."
+#   additional_info2: "Major: Electrical and Computer Engineering"
+#   additional_info3: 
 
 
 - ##event_name: Monthly Bowling Night
