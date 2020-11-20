@@ -9,6 +9,14 @@
 ##   additional_info1: # 1st line of additional information. 40 character per line
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
+- event_name: Monthly Game Night 
+  detail_url: 
+  date: Nov. 21, 2020
+  location: "https://tinyurl.com/kseakrrp"
+  additional_info1: Saturday Before Thanksgiving Week 8pm
+  additional_info2: "Prize: 1st $25, 2nd $10"
+  additional_info3: "Prize Is Doubled with KSEA Membership"
+
 - event_name: NMSC
   detail_url: 
   date: Dec. 05, 2020
