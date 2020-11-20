@@ -10,13 +10,6 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
-- event_name: KSEA Webinar Series
-  detail_url: 
-  date: Nov. 18, 2020
-  location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: Seungwon Chung"
-  additional_info2: "Affiliation: AbbVie"
-  additional_info3: "5:00-5:30 PM (Q&A Included)"
 
 - event_name: Monthly Game Night 
   detail_url: 
