@@ -6,7 +6,6 @@
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 35 char
 
-<<<<<<< HEAD
 
 - event_name: KSEA Webinar Series
   detail_url: https://www.facebook.com/groups/kseawisc/permalink/3467644326614573/
@@ -22,23 +21,6 @@
   detail_url: https://www.facebook.com/groups/kseawisc/permalink/3442916445754028/
   date: Oct. 31. 2020
   location: https://papergames.io/en/gomoku 
-=======
-- event_name: KSEA Webinar Series
-  detail_url: 
-  date: Nov. 4, 2020
-  location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: Kevin Kim"
-  additional_info2: "Electrical Design and Integration"
-  additional_info3: "Thermo Fisher"
-
-- event_name: Monthly Game Night 
-  detail_url: 
-  date: Oct. 31, 2020
-  location: https://papergames.io/en/gomoku 
-  additional_info1: Every Last Saturday of Month 8 pm
-  additional_info2: "Prize: 1st $25, 2nd $10"
-  additional_info3: "Prize Is Doubled with KSEA Membership"
->>>>>>> afd915f2038d2a9797979e5d2cf23fe836b94a4e
 
 - event_name: "KSEA Webinar Series"
   detail_url: https://www.facebook.com/groups/kseawisc/permalink/3369809003064773/
