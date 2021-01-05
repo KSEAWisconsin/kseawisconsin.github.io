@@ -10,6 +10,14 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
+- event_name: KSEA Webinar Series 
+  detail_url: 
+  date: Feb. 17, 2021
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Sunghoon Gee"
+  additional_info2: "Major: Material Science Engineering"
+  additional_info3: "Affiliation: Seagate Technology"
+
 - event_name: Monthly Game Night 
   detail_url: 
   date: Nov. 21, 2020
