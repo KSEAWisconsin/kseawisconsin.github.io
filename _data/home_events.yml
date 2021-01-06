@@ -12,6 +12,14 @@
 
 - event_name: KSEA Webinar Series 
   detail_url: 
+  date: Feb. 4, 2021
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Hong-min Jun"
+  additional_info2: "Discussion about Various Types of Visas"
+  additional_info3: "Affiliation: Jun Law Firm"
+
+- event_name: KSEA Webinar Series 
+  detail_url: 
   date: Feb. 17, 2021
   location: WebEx Link in The Invitation Email
   additional_info1: "Speaker: Sunghoon Gee"
