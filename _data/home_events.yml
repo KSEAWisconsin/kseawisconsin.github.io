@@ -10,13 +10,13 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
-- event_name: Immigrant Law Seminar 
+- event_name: KSEA Webinar Series 
   detail_url: 
-  date: Feb. 4, 2021
+  date: Mar. 10, 2021
   location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: Hong-min Jun"
-  additional_info2: "Discussion about Various Types of Visas"
-  additional_info3: "Affiliation: Jun Law Firm"
+  additional_info1: "Speaker: Daniel Lee"
+  additional_info2: "Major: Software Engineering"
+  additional_info3: "Affiliation: Google Firebase"
 
 - event_name: KSEA Webinar Series 
   detail_url: 
@@ -26,13 +26,13 @@
   additional_info2: "Major: Material Science Engineering"
   additional_info3: "Affiliation: Seagate Technology"
 
-- event_name: Monthly Game Night 
+- event_name: Immigrant Law Seminar 
   detail_url: 
-  date: Nov. 21, 2020
-  location: "https://tinyurl.com/kseakrrp"
-  additional_info1: Saturday Before Thanksgiving Week 8pm
-  additional_info2: "Prize: 1st $25, 2nd $10"
-  additional_info3: "Prize Is Doubled with KSEA Membership"
+  date: Feb. 4, 2021
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Hong-min Jun"
+  additional_info2: "Discussion about Various Types of Visas"
+  additional_info3: "Affiliation: Jun Law Firm"
 
 - event_name: NMSC
   detail_url: 
@@ -42,6 +42,13 @@
   additional_info2: "1 PM CST"
   additional_info3: "Registration Fee: $10"
 
+- event_name: Monthly Game Night 
+  detail_url: 
+  date: Nov. 21, 2020
+  location: "https://tinyurl.com/kseakrrp"
+  additional_info1: Saturday Before Thanksgiving Week 8pm
+  additional_info2: "Prize: 1st $25, 2nd $10"
+  additional_info3: "Prize Is Doubled with KSEA Membership"
 
 - event_name: UKC 2020 Virtual 
   detail_url: 

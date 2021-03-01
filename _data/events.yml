@@ -5,6 +5,12 @@
 ##   detail_url: # where detailed description located
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 35 char
+
+- event_name: KSEA Webinar Series 
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3712943725417964/
+  date: Feb. 17. 2021
+  location: WebEx Link in The Invitation Email
+
 - event_name: Immigrant Law Seminar 
   detail_url: https://www.facebook.com/groups/kseawisc/permalink/3658955660816771/
   date: Feb. 4. 2021
