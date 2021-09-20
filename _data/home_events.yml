@@ -12,6 +12,14 @@
 
 - event_name: KSEA Webinar Series 
   detail_url: 
+  date: Sep. 30, 2021
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Jangho Park"
+  additional_info2: "Major: Software Engineer"
+  additional_info3: "Affiliation: Torc Robotics"
+
+- event_name: KSEA Webinar Series 
+  detail_url: 
   date: Apr. 16, 2021
   location: WebEx Link in The Invitation Email
   additional_info1: "Speaker: ChiHoon Lee"
