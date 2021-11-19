@@ -11,17 +11,17 @@
 ##   additional_info3: # 2st line of additional information.
 
 
-- event_name: KSEA Movie Night 
-  detail_url: 
+- event_name: KSEA Movie Night
+  detail_url:
   date: Nov. 16, 2021
   location: Marcus Point Cinema
   additional_info1: "Movie: Eternals"
   additional_info2: "$4 for KSEA Members"
   additional_info3: "$5.28 for non-KSEA Members"
 
-- event_name: Halloween Night 
-  detail_url: 
-  date: OCt. 30, 2021
+- event_name: Halloween Night
+  detail_url:
+  date: Oct. 30, 2021
   location: Schuter's Farm
   additional_info1: "$25 for Haunted Forest"
   additional_info2: "$10 for Flashlight Corn Maze"
@@ -35,7 +35,7 @@
 #  additional_info2: "Major: Cellular and Molecular Biology"
 #  additional_info3: "Affiliation: University of Nebraska"
 
-  - event_name: Monthly Bowling Night 
+- event_name: Monthly Bowling Night 
   detail_url: 
   date: Oct. 27, 2021
   location: Schwoegler Park Towne Lanes
