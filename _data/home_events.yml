@@ -10,6 +10,39 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
+
+- event_name: KSEA Movie Night 
+  detail_url: 
+  date: Nov. 16, 2021
+  location: Marcus Point Cinema
+  additional_info1: "Movie: Eternals"
+  additional_info2: "$4 for KSEA Members"
+  additional_info3: "$5.28 for non-KSEA Members"
+
+- event_name: Halloween Night 
+  detail_url: 
+  date: OCt. 30, 2021
+  location: Schuter's Farm
+  additional_info1: "$25 for Haunted Forest"
+  additional_info2: "$10 for Flashlight Corn Maze"
+  additional_info3: "Discount Available for KSEA Members"
+
+- event_name: KSEA Webinar Series 
+  detail_url: 
+  date: Oct. 28, 2021
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Suyoung Choi"
+  additional_info2: "Major: Cellular and Molecular Biology"
+  additional_info3: "Affiliation: University of Nebraska"
+
+  - event_name: Monthly Bowling Night 
+  detail_url: 
+  date: Oct. 27, 2021
+  location: Schwoegler Park Towne Lanes
+  additional_info1: "9 pm"
+  additional_info2: "$2 per 2 Games for KSEA Members"
+  additional_info3: "$5 per 2 Games for non-KSEA Members"
+
 - event_name: KSEA Webinar Series 
   detail_url: 
   date: Sep. 30, 2021

@@ -6,9 +6,34 @@
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 35 char
 
+- event_name: KSEA Movie Night
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4505555382823457/
+  date: Nov. 16. 2021
+  location: Marcus Point Cinema
+
+- event_name: Halloween Night
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4415060315206298/
+  date: Oct. 30. 2021
+  location: Schuster's Farm
+
+- event_name: KSEA Webinar Series
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4438306226215040/
+  date: Oct. 28. 2021
+  location: WebEx Link in The Invitation Email
+
+- event_name: Monthly Bowling Night 
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4437479639631032/
+  date: Oct. 27. 2021
+  location: Schwoegler Park Towne Lanes
+
+- event_name: KSEA Webinar Series 
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4349632265082437/
+  date: Sep. 30. 2021
+  location: WebEx Link in The Invitation Email
+
 - event_name: KSEA Webinar Series 
   detail_url: https://www.facebook.com/groups/kseawisc/permalink/3859221960790139/
-  date: Apt. 16. 2021
+  date: Apr. 16. 2021
   location: WebEx Link in The Invitation Email
 
 - event_name: KSEA Webinar Series 
