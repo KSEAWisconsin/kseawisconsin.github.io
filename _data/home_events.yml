@@ -11,21 +11,21 @@
 ##   additional_info3: # 2st line of additional information.
 
 
-- event_name: KSEA Movie Night 
-  detail_url: 
-  date: Nov. 16, 2021
-  location: Marcus Point Cinema
-  additional_info1: "Movie: Eternals"
-  additional_info2: "$4 for KSEA Members"
-  additional_info3: "$5.28 for non-KSEA Members"
+#- event_name: KSEA Movie Night 
+#  detail_url: 
+#  date: Nov. 16, 2021
+#  location: Marcus Point Cinema
+#  additional_info1: "Movie: Eternals"
+#  additional_info2: "$4 for KSEA Members"
+#  additional_info3: "$5.28 for non-KSEA Members"
 
-- event_name: Halloween Night 
-  detail_url: 
-  date: OCt. 30, 2021
-  location: Schuter's Farm
-  additional_info1: "$25 for Haunted Forest"
-  additional_info2: "$10 for Flashlight Corn Maze"
-  additional_info3: "Discount Available for KSEA Members"
+#- event_name: Halloween Night 
+#  detail_url: 
+#  date: OCt. 30, 2021
+#  location: Schuter's Farm
+#  additional_info1: "$25 for Haunted Forest"
+#  additional_info2: "$10 for Flashlight Corn Maze"
+#  additional_info3: "Discount Available for KSEA Members"
 
 #- event_name: KSEA Webinar Series
 #  detail_url: 
@@ -34,6 +34,38 @@
 #  additional_info1: "Speaker: Suyoung Choi"
 #  additional_info2: "Major: Cellular and Molecular Biology"
 #  additional_info3: "Affiliation: University of Nebraska"
+
+- event_name: KSEA Webinar Series 
+  detail_url: 
+  date: Mar. 24, 2022
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Chong-Suk Song"
+  additional_info2: "Major: Energy Engineer"
+  additional_info3: "Affiliation: The World Bank Group"
+
+- event_name: Monthly Bowling Night 
+  detail_url: 
+  date: Dec. 1, 2021
+  location: Schwoegler Park Towne Lanes
+  additional_info1: "9 pm"
+  additional_info2: "$2 per 2 Games for KSEA Members"
+  additional_info3: "$5 per 2 Games for non-KSEA Members"
+
+- event_name: Monthly Movie Night 
+  detail_url: 
+  date: Nov. 16, 2021
+  location: Marcus Point Cinema
+  additional_info1: "6 : 20 pm"
+  additional_info2: "$4 for KSEA Members"
+  additional_info3: "$5.28 for non-KSEA Members"
+
+- event_name: KSEA Webinar Series 
+  detail_url: 
+  date: OCt. 28, 2021
+  location: WebEx Link in The Invitation Email
+  additional_info1: "Speaker: Suyong Choi"
+  additional_info2: "Major: Medical Science"
+  additional_info3: "Affiliation: University of Nebraska"
 
   - event_name: Monthly Bowling Night 
   detail_url: 
@@ -51,61 +83,61 @@
   additional_info2: "Major: Software Engineer"
   additional_info3: "Affiliation: Torc Robotics"
 
-- event_name: KSEA Webinar Series 
-  detail_url: 
-  date: Apr. 16, 2021
-  location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: ChiHoon Lee"
-  additional_info2: "Major: Machine Learning"
-  additional_info3: "Affiliation: Facebook"
+#- event_name: KSEA Webinar Series 
+#  detail_url: 
+#  date: Apr. 16, 2021
+#  location: WebEx Link in The Invitation Email
+#  additional_info1: "Speaker: ChiHoon Lee"
+#  additional_info2: "Major: Machine Learning"
+#  additional_info3: "Affiliation: Facebook"
 
-- event_name: KSEA Webinar Series 
-  detail_url: 
-  date: Mar. 10, 2021
-  location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: Daniel Lee"
-  additional_info2: "Major: Software Engineering"
-  additional_info3: "Affiliation: Google Firebase"
+#- event_name: KSEA Webinar Series 
+#  detail_url: 
+#  date: Mar. 10, 2021
+#  location: WebEx Link in The Invitation Email
+#  additional_info1: "Speaker: Daniel Lee"
+#  additional_info2: "Major: Software Engineering"
+#  additional_info3: "Affiliation: Google Firebase"
 
-- event_name: KSEA Webinar Series 
-  detail_url: 
-  date: Feb. 17, 2021
-  location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: Sunghoon Gee"
-  additional_info2: "Major: Material Science Engineering"
-  additional_info3: "Affiliation: Seagate Technology"
+#- event_name: KSEA Webinar Series 
+#  detail_url: 
+#  date: Feb. 17, 2021
+#  location: WebEx Link in The Invitation Email
+#  additional_info1: "Speaker: Sunghoon Gee"
+#  additional_info2: "Major: Material Science Engineering"
+#  additional_info3: "Affiliation: Seagate Technology"
 
-- event_name: Immigrant Law Seminar 
-  detail_url: 
-  date: Feb. 4, 2021
-  location: WebEx Link in The Invitation Email
-  additional_info1: "Speaker: Hong-min Jun"
-  additional_info2: "Discussion about Various Types of Visas"
-  additional_info3: "Affiliation: Jun Law Firm"
+#- event_name: Immigrant Law Seminar 
+#  detail_url: 
+#  date: Feb. 4, 2021
+#  location: WebEx Link in The Invitation Email
+#  additional_info1: "Speaker: Hong-min Jun"
+#  additional_info2: "Discussion about Various Types of Visas"
+#  additional_info3: "Affiliation: Jun Law Firm"
 
-- event_name: NMSC
-  detail_url: 
-  date: Dec. 05, 2020
-  location: Zoom Meeting Link in the Poster
-  additional_info1: "Online Registration by Nov.30"
-  additional_info2: "1 PM CST"
-  additional_info3: "Registration Fee: $10"
+#- event_name: NMSC
+#  detail_url: 
+#  date: Dec. 05, 2020
+#  location: Zoom Meeting Link in the Poster
+#  additional_info1: "Online Registration by Nov.30"
+#  additional_info2: "1 PM CST"
+#  additional_info3: "Registration Fee: $10"
 
-- event_name: Monthly Game Night 
-  detail_url: 
-  date: Nov. 21, 2020
-  location: "https://tinyurl.com/kseakrrp"
-  additional_info1: Saturday Before Thanksgiving Week 8pm
-  additional_info2: "Prize: 1st $25, 2nd $10"
-  additional_info3: "Prize Is Doubled with KSEA Membership"
+#- event_name: Monthly Game Night 
+#  detail_url: 
+#  date: Nov. 21, 2020
+#  location: "https://tinyurl.com/kseakrrp"
+#  additional_info1: Saturday Before Thanksgiving Week 8pm
+#  additional_info2: "Prize: 1st $25, 2nd $10"
+#  additional_info3: "Prize Is Doubled with KSEA Membership"
 
-- event_name: UKC 2020 Virtual 
-  detail_url: 
-  date: Dec. 14-17, 2020
-  location: "Via Online Platform (TBA)"
-  additional_info1: "Registration Deadline: Dec. 7, 2020"
-  additional_info2: "Fee: Free with KSEA Membership"
-  additional_info3: "More Info: https://ukc.ksea.org/ukc2020"
+#- event_name: UKC 2020 Virtual 
+#  detail_url: 
+#  date: Dec. 14-17, 2020
+#  location: "Via Online Platform (TBA)"
+#  additional_info1: "Registration Deadline: Dec. 7, 2020"
+#  additional_info2: "Fee: Free with KSEA Membership"
+#  additional_info3: "More Info: https://ukc.ksea.org/ukc2020"
 
 
 # - event_name: KSEA Webinar Series
