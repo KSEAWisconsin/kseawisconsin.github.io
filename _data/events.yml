@@ -6,6 +6,11 @@
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 35 char
 
+- event_name: Monthly Bowling Night
+  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4548250891887239/
+  date: Dec. 1. 2021
+  location: Schwoegler Park Towne Lanes
+
 - event_name: KSEA Movie Night
   detail_url: https://www.facebook.com/groups/kseawisc/permalink/4505555382823457/
   date: Nov. 16. 2021
