@@ -60,7 +60,7 @@
   additional_info2: "$4 for KSEA Members"
   additional_info3: "$5.28 for non-KSEA Members"
 
-- event_name: KSEA Webinar Series 
+- event_name: KSEA Webinar Series
   detail_url: 
   date: OCt. 28, 2021
   location: WebEx Link in The Invitation Email
@@ -68,7 +68,7 @@
   additional_info2: "Major: Medical Science"
   additional_info3: "Affiliation: University of Nebraska"
 
-  - event_name: Monthly Bowling Night 
+- event_name: Monthly Bowling Night 
   detail_url: 
   date: Oct. 27, 2021
   location: Schwoegler Park Towne Lanes
