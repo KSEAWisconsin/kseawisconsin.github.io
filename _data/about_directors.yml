@@ -6,17 +6,17 @@
 ##   standing: # the standing of the person
 ##   website_url: # url of personal website
 
-- person_name: HANWOOK CHUNG
-  image_url: /HANWOOK_CHUNG.jpg
-  standing: Director of Basic Sciences
-  website_url: 
+# - person_name: HANWOOK CHUNG
+#   image_url: /HANWOOK_CHUNG.jpg
+#   standing: Director of Basic Sciences
+#   website_url: 
   
-- person_name: JAEHYUNG CHOI
-  image_url: /JAEHYUNG_CHOI.jpg
-  standing: Director of Pharmacy
-  website_url: 
+# - person_name: JAEHYUNG CHOI
+#   image_url: /JAEHYUNG_CHOI.jpg
+#   standing: Director of Pharmacy
+#   website_url: 
   
-- person_name: DONGHWAN JEON
-  image_url: /DONGHWAN_JEON.jpg
-  standing: Director of Public Relations
-  website_url: 
+# - person_name: DONGHWAN JEON
+#   image_url: /DONGHWAN_JEON.jpg
+#   standing: Director of Public Relations
+#   website_url: 
