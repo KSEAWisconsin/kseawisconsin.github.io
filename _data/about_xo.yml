@@ -6,22 +6,37 @@
 ##   standing: # the standing of the person
 ##   website_url: # url of personal website
 
-- person_name: DONGHWAN JEON
-  image_url: /DONGHWAN_JEON.jpg
-  standing: President
+- person_name: HYECHEOL JANG
+  image_url: /HYECHEOL_JANG.jpg
+  standing: President (Professional Division)
   website_url: 
 
-- person_name: HYEONJEONG BAE
-  image_url: /HYEONJEONG_BAE.jpg
+- person_name: HUNGTAE KIM
+  image_url: /HUNGTAE_KIM.jpg
+  standing: President (Academic Division)
+  website_url:
+
+- person_name: MINKYUNG CHAE
+  image_url: /TBD.jpg
   standing: Vice President
-  website_url: 
+  website_url:
 
-#- person_name: DASOL CHOI
-  #image_url: /DASOL_CHOI.jpg
-  #standing: Secretary General
-  #website_url: 
-  
-- person_name: HYEONJEONG BAE
-  image_url: /HYEONJEONG_BAE.jpg 
-  standing: Cheif Technology Officer
-  website_url: 
+- preson_name: YOONSOO KIM
+  image_url: /TBD.jpg
+  standing: SECRETARY GENERAL
+  website_url:
+
+- person_name: SOYOUN KIM
+  image_url: /TBD.jpg
+  standing: Chief Financial Officer
+  website_url:
+
+- preson_name: SOOJIN KIM
+  image_url: /TBD.jpg
+  stanidng: Chief Financial Officer
+  website_url:
+
+- person_name: INYOUNG CHO
+  image_url: /TBD.jpg
+  standing: Chief Public Relations Officer
+  website_url:

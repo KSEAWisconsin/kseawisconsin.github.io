@@ -6,32 +6,32 @@
 ##   standing: # the standing of the person
 ##   website_url: # url of personal website
   
-- person_name: KWON LEE
-  image_url: /KWON_LEE.jpg
-  standing: President
-  website_url: 
+# - person_name: KWON LEE
+#   image_url: /KWON_LEE.jpg
+#   standing: President
+#   website_url: 
   
-- person_name: HYEONJI KIM
-  image_url: /HYEONJI_KIM.jpg
-  standing: Vice President
-  website_url: 
+# - person_name: HYEONJI KIM
+#   image_url: /HYEONJI_KIM.jpg
+#   standing: Vice President
+#   website_url: 
 
-- person_name: ARDEN KIM
-  image_url: /ARDEN_KIM.jpg
-  standing: Finance Director
-  website_url: 
+# - person_name: ARDEN KIM
+#   image_url: /ARDEN_KIM.jpg
+#   standing: Finance Director
+#   website_url: 
 
-- person_name: ANGELA BAE
-  image_url: /ANGELA_BAE.jpg
-  standing: Event Coordinator
-  website_url:   
+# - person_name: ANGELA BAE
+#   image_url: /ANGELA_BAE.jpg
+#   standing: Event Coordinator
+#   website_url:   
 
-- person_name: DAVID KWON
-  image_url: /DAVID_KWON.jpg
-  standing: Event Coordinator
-  website_url: 
+# - person_name: DAVID KWON
+#   image_url: /DAVID_KWON.jpg
+#   standing: Event Coordinator
+#   website_url: 
 
-- person_name: CHAE YOUN KWON
-  image_url: /CHAEYOUN_KWON.jpg
-  standing: Public Relations
-  website_url: 
+# - person_name: CHAE YOUN KWON
+#   image_url: /CHAEYOUN_KWON.jpg
+#   standing: Public Relations
+#   website_url: 

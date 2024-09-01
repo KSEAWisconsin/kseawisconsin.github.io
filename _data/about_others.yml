@@ -19,7 +19,17 @@
 - person_name: THOMAS MUHOLLAND
   image_url: /TBD.jpg
   standing: External Advisor
-  website_url: 
+  website_url:
+
+- person_name: DONGHWAN JEON
+  image_url: /DONGHWAN_JEON.jpg
+  standing: Former President (2021-23)
+  website_url:
+
+- person_name: YUNHWA CHOI
+  image_url: /YUNHWA_CHOI.jpg
+  standing: Former President (2019-20)
+  website_url:  
   
 - person_name: HUNGTAE KIM
   image_url: /HUNGTAE_KIM.jpg
