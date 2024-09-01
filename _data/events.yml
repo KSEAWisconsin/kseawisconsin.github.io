@@ -6,143 +6,17 @@
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 35 char
 
-- event_name: KSEA Webinar Series
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4909562762422715/
-  date: Mar. 24. 2022
-  location: WebEx Link in The Invitation Email
+- event_name: Sepember Bowling Night
+  detail_url:
+  date: TBD (Mid September)
+  location: TBD
 
-- event_name: Monthly Bowling Night
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4548250891887239/
-  date: Dec. 1. 2021
-  location: Schwoegler Park Towne Lanes
-
-- event_name: KSEA Movie Night
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4505555382823457/
-  date: Nov. 16. 2021
+- event_name: Sepember Movie Night
+  detail_url:
+  date: Sep. 24. 2024
   location: Marcus Point Cinema
 
-- event_name: Halloween Night
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4415060315206298/
-  date: Oct. 30. 2021
-  location: Schuster's Farm
-
-- event_name: KSEA Webinar Series
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4438306226215040/
-  date: Oct. 28. 2021
-  location: WebEx Link in The Invitation Email
-
-- event_name: Monthly Bowling Night 
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4437479639631032/
-  date: Oct. 27. 2021
-  location: Schwoegler Park Towne Lanes
-
-- event_name: KSEA Webinar Series 
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/4349632265082437/
-  date: Sep. 30. 2021
-  location: WebEx Link in The Invitation Email
-
-- event_name: KSEA Webinar Series 
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3859221960790139/
-  date: Apr. 16. 2021
-  location: WebEx Link in The Invitation Email
-
-- event_name: KSEA Webinar Series 
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3786558788056457/
-  date: Mar. 10. 2021
-  location: WebEx Link in The Invitation Email
-
-
-- event_name: KSEA Webinar Series 
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3712943725417964/
-  date: Feb. 17. 2021
-  location: WebEx Link in The Invitation Email
-
-- event_name: Immigrant Law Seminar 
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3658955660816771/
-  date: Feb. 4. 2021
-  location: WebEx Link in The Invitation Email
-
-- event_name: KSEA Webinar Series
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3467644326614573/
-  date: Nov. 18. 2020
-  location: WebEx Link in The Invitation Email
-
-- event_name: KSEA Webinar Series
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3434767546568918/
-  date: Nov. 4. 2020
-  location: WebEx Link in The Invitation Email
-
-- event_name: Monthly Game Night 
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3442916445754028/
-  date: Oct. 31. 2020
-  location: https://papergames.io/en/gomoku 
-
-- event_name: "KSEA Webinar Series"
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3369809003064773/
-  date: Oct. 15. 2020 (Thu)
-  location: WebEx link in the invitation email
-
-- event_name: "Monthly Game Night"
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3343618459017161/
-  date: Sep. 26. 2020 (Sat)
-  location: https://jstris.jezevec10.com
-
-- event_name: "KSEA Webinar Series"
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/3273905722655102/
-  date: Sep. 14. 2020 (Mon)
-  location: WebEx link in the invitation email
-
-- event_name: "KSEA:KSSA Ice Skating"
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2750375015008178/
-  date: Feb. 01. 2020 (Sat)
-  location: Madison Ice Inc
-
-- event_name: "Wisconsin Science Festival"
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2534617426583939/
-  date: Oct. 19. 2019 (Sat)
-  location: Wisconsin Institute for Discovery
-
-- event_name: KSEA Early Halloween Event
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2520235071355508/
-  date: Oct. 12. 2019 (Sat)
-  location: Schuster's Farm
-
-- event_name: 2019 Fall Membership Drive
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2427437750635241/
-  date: Sep. 7. 2019 (Sat)
-  location: Memorial Union Tripp Commons
-
-- event_name: "KASA KoreU: CultureFest 2019"
-  detail_url: /2019/04/19/KASA_KoreU_CultureFest
-  date: Apr. 19. 2019 (Fri)
-  location: Gordon's Symphonoy Room
-
-- event_name: "2019 National Math & Sci Competition"
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2233682490010769/
-  date: "Apr. 13. 2019 (Sat) 12:45 PM - 3:30 PM"
-  location: Union South
-
-- event_name: Dr. Yu's Seminar
-  detail_url: https://www.facebook.com/KSEAWiscYG/posts/2325729084313847
-  date: "Apr. 12. 2019 (Fri) 6:00 PM"
-  location: Union South
-
-- event_name: Wisconsin Science Expeditions
-  detail_url: 
-  date: Apr. 06. 2019 (Sat)
-  location: Wisconsin Institute for Discovery
-
-- event_name: JBC Coffee Tour
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/2192204340825251/
-  date: Mar. 30. 2019 (Sat)
-  location: JBC Coffee Roasters
-
-- event_name: KSEA Wisconsin Symposium
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/1996866640359023/
-  date: Nov. 03. 2018 (Sat)
-  location: Memorial Union
-
-- event_name: Wisconsin Science Festival
-  detail_url: https://www.facebook.com/groups/kseawisc/permalink/1958807717498249/
-  date: Oct. 18. 2018 (Sat)
-  location: Wisconsin Institute for Discovery
+- event_name: KSEA Fall 2024 Kick-Off 
+  detail_url:
+  date: TBD (Early October)
+  location: TBD
