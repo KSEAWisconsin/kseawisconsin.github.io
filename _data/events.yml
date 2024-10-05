@@ -6,17 +6,22 @@
 ##   date: # Mmm. DD. YYYY
 ##   location: # upto 35 char
 
-- event_name: Sepember Bowling Night
-  detail_url:
-  date: TBD (Mid September)
-  location: TBD
-
-- event_name: Sepember Movie Night
-  detail_url:
-  date: Sep. 24. 2024
-  location: Marcus Point Cinema
-
 - event_name: KSEA Fall 2024 Kick-Off 
   detail_url:
-  date: TBD (Early October)
-  location: TBD
+  date: Oct. 05. 2024
+  location: Memorial Union - Tripp Commons
+
+- event_name: October Movie Night (Venom)
+  detail_url:
+  date: Oct. 29. 2024
+  location: Marcus Point Cinema
+
+- event_name: Haloween Event
+  detail_url:
+  date: Oct. 18 (or 19). 2024
+  location: Screamin Acres
+
+- event_name: November Bowling Night
+  detail_url:
+  date: Nov. 14. 2024
+  location: Spare Time Madison

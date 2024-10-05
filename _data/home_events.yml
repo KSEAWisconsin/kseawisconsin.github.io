@@ -10,26 +10,39 @@
 ##   additional_info2: # 2st line of additional information.
 ##   additional_info3: # 2st line of additional information.
 
-- event_name: Sepember Bowling Night
-  detail_url: 
-  date: TBD (Mid September)
-  location: TBD
-  additional_info1: "Stay tuned for additional details."
-  additional_info2:
-  additional_info3:
+- event_name: KSEA Fall 2024 Kick-Off 
+  detail_url: https://forms.gle/SPFavp8yK96r4FVs9
+  date: Oct. 05. 2024
+  location: Memorial Union - Tripp Commons
+  additional_info1: FREE Admission
+  additional_info2: Food and Beer provided
+  additional_info3: "Registration Open 3:20PM"
 
-- event_name: September Movie Night 
+- event_name: October Movie Night 
   detail_url: 
-  date: Sep. 24. 2024
+  date: Oct. 29. 2024
   location: Marcus Point Cinema
-  additional_info1: "Transformer One / Movie starts at 7PM"
+  additional_info1: "Venom / Movie starts at 7PM"
   additional_info2: "Pizza Provided!"
   additional_info3: "Member: $8 / Non-Member: $12"
 
-- event_name: KSEA Fall 2024 Kick-Off 
+- event_name: Haloween Event
   detail_url: 
-  date: TBD (Early October)
-  location: TBD
-  additional_info1: "Stay tuned for additional details."
+  date: Oct. 18 (or 19). 2024
+  location: Screamin Acres
+  additional_info1: "Stay tuned for additional info!"
   additional_info2:
   additional_info3:
+
+- event_name: November Bowling Night
+  detail_url: 
+  date: Nov. 14. 2024
+  location: Spare Time Madison
+  additional_info1: "Starts at 9PM"
+  additional_info2:
+  additional_info3:
+
+- event_name: Haloween Event
+  detail_url:
+  date: Oct. 18 (or 19). 2024
+  location: Screamin Acres
